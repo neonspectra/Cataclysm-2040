@@ -4,10 +4,11 @@
     "id": "No_Fungi",
     "name": "No Fungal Monsters",
     "authors": [ "Chaosvolt" ],
+    "maintainers": [ "Neon" ],
     "description": "Removes fungal monsters and regions from the game.",
     "category": "monster_exclude",
     "dependencies": [ "dda" ],
-    "obsolete": true
+    "obsolete": false
   },
   {
     "type": "MONSTER_BLACKLIST",
@@ -28,7 +29,8 @@
       "mon_fungal_hedgerow",
       "mon_fungaloid_tower",
       "mon_fungal_blossom",
-      "mon_fungaloid_seeder"
+      "mon_fungaloid_seeder",
+      "mon_fungaloid_shambler"
     ]
   },
   {
