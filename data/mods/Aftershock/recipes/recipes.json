@@ -399,7 +399,6 @@
     "time": "4 h",
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 } ],
     "using": [ [ "welding_standard", 3 ] ],
-    "proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_welding_basic" } ],
     "components": [ [ [ "afs_material_1", 8 ] ], [ [ "afs_circuitry_2", 1 ] ], [ [ "afs_energy_storage_1", 1 ] ] ]
   },
   {
@@ -416,7 +415,6 @@
     "time": "4 h",
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH", "level": 2 } ],
     "using": [ [ "welding_standard", 3 ] ],
-    "proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_welding_basic" } ],
     "components": [
       [ [ "afs_material_1", 6 ] ],
       [ [ "afs_circuitry_2", 3 ] ],

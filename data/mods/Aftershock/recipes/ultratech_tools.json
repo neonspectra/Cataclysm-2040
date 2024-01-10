@@ -18,7 +18,6 @@
       { "id": "WRENCH", "level": 1 }
     ],
     "tools": [ [ [ "welder", 400 ], [ "welder_crude", 600 ], [ "toolset", 600 ], [ "soldering_iron", 600 ], [ "oxy_torch", 80 ] ] ],
-    "proficiencies": [ { "proficiency": "prof_metalworking" } ],
     "components": [
       [ [ "afs_material_4", 8 ] ],
       [ [ "afs_material_2", 12 ] ],
@@ -55,7 +54,6 @@
       { "id": "WRENCH", "level": 1 }
     ],
     "tools": [ [ [ "welder", 300 ], [ "welder_crude", 450 ], [ "toolset", 450 ], [ "soldering_iron", 450 ], [ "oxy_torch", 60 ] ] ],
-    "proficiencies": [ { "proficiency": "prof_metalworking" } ],
     "components": [
       [ [ "afs_material_3", 8 ] ],
       [ [ "afs_material_2", 12 ] ],
