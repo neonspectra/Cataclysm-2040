@@ -22,6 +22,9 @@
   * [Building with Clang and MinGW64](#building-with-clang-and-mingw64)
 * [BSDs](#bsds)
 
+> [!NOTE]
+> CD2040 is only built for macOS Apple Silicon and Linux. All the other instructions here are retained from Cataclysm: DDA, are not supported, and have not been tested. Your mileage may vary.
+
 # General Linux Guide
 
 To build Cataclysm from source you will need at least a C++ compiler, some basic developer tools, and necessary build dependencies. The exact package names vary greatly from distro to distro, so this part of the guide is intended to give you higher-level understanding of the process.
@@ -413,40 +416,11 @@ The app stores data files on the device in `/sdcard/Android/data/com.cleverraven
 
 # Mac OS X
 
-To build Cataclysm on Mac you'll need [Command Line Tools for Xcode](https://developer.apple.com/downloads/) and the [Homebrew](http://brew.sh) package manager. With Homebrew, you can easily install or build Cataclysm using the [cataclysm](https://formulae.brew.sh/formula/cataclysm) formula.
+To build Cataclysm on Mac you'll need [Command Line Tools for Xcode](https://developer.apple.com/downloads/) and either the [Homebrew](http://brew.sh) or [MacPorts](https://www.macports.org/) package manager for installing build dependencies. The maintainer of this project has not tested builds with MacPorts, and Homebrew is recommended.
 
-## Simple build using Homebrew
+Unlike DDA, CD2040 does not have a Homebrew formula for building, unfortunately. As of this writing, I'm only one person and the amount I can reasonably do is very limited. The instructions below are for compiling CD2040 from an Apple Silicon Mac.
 
-A homebrew installation will come with tiles and sound support enabled.
-
-Once you have Homebrew installed, open Terminal and run one of the following commands.
-
-For a stable tiles build:
-
-    `brew install cataclysm`
-
-For an experimental tiles build built from the current HEAD of [master](https://github.com/CleverRaven/Cataclysm-DDA/tree/master/):
-
-    `brew install cataclysm --HEAD`
-
-Whichever build you choose, Homebrew will install the appropriate dependencies as needed. The installation will be in `/usr/local/Cellar/cataclysm` with a symlink named `cataclysm` in `/usr/local/bin`.
-
-To launch Cataclysm, just open Terminal and run `cataclysm`.
-
-To update a stable tiles build simply run:
-
-    `brew upgrade cataclysm`
-
-To update an experimental build, you must uninstall Cataclysm then reinstall with `--HEAD`, triggering a new build from source.
-
-```bash
-brew uninstall cataclysm
-brew install cataclysm --HEAD
-```
-
-## Advanced info for Developers
-
-For most people, the simple Homebrew installation is enough. For developers, here are some more technical details on building Cataclysm on Mac OS X.
+Furthermore, CD2040 is **only** supported on Apple Silicon. I don't have an Intel Mac, and they're on the way out anyway. If you want to compile it for Intel, you're on your own. Same goes for cross-compilation from a different platform.
 
 ### SDL
 
@@ -471,19 +445,19 @@ Alternatively, SDL shared libraries can be installed using a package manager:
 
 For Homebrew:
 
-    `brew install sdl2 sdl2_image sdl2_ttf`
+    brew install sdl2 sdl2_image sdl2_ttf
 
 with sound:
 
-    `brew install sdl2_mixer libvorbis libogg`
+    brew install sdl2_mixer libvorbis libogg
 
 For MacPorts:
 
-    `sudo port install libsdl2 libsdl2_image libsdl2_ttf`
+    sudo port install libsdl2 libsdl2_image libsdl2_ttf
 
 with sound:
 
-    `sudo port install libsdl2_mixer libvorbis libogg`
+    sudo port install libsdl2_mixer libvorbis libogg
 
 ### ncurses and gettext
 
@@ -491,7 +465,7 @@ ncurses (with wide character support enabled) and gettext are needed if you want
 
 For Homebrew:
 
-    `brew install gettext ncurses`
+    brew install gettext ncurses
 
 For MacPorts:
 
@@ -502,9 +476,12 @@ hash -r
 
 ### gcc
 
+> [!NOTE]
+> We recommend you skip this section and use the native Apple LLVM and have not tested compilation with GCC. This information exists only if you really want to use GCC for some reason, and your mileage may vary.
+
 The version of gcc/g++ installed with the [Command Line Tools for Xcode](https://developer.apple.com/downloads/) is actually just a front end for the same Apple LLVM as clang.  This doesn't necessarily cause issues, but this version of gcc/g++ will have clang error messages and essentially produce the same results as if using clang. To compile with the "real" gcc/g++, install it with homebrew:
 
-    `brew install gcc`
+    brew install gcc
 
 However, homebrew installs gcc as gcc-8 (where 6 is the version) to avoid conflicts. The simplest way to use the homebrew version at `/usr/local/bin/gcc-8` instead of the Apple LLVM version at `/usr/bin/gcc` is to symlink the necessary.
 
@@ -517,7 +494,7 @@ ln -s c++-8 c++
 
 Or, to do this for everything in `/usr/local/bin/` ending with `-8`,
 
-    `find /usr/local/bin -name "*-8" -exec sh -c 'ln -s "$1" $(echo "$1" | sed "s/..$//")' _ {} \;`
+    find /usr/local/bin -name "*-8" -exec sh -c 'ln -s "$1" $(echo "$1" | sed "s/..$//")' _ {} \;
 
 Also, you need to make sure that `/usr/local/bin` appears before `/usr/bin` in your `$PATH`, or else this will not work.
 
@@ -530,7 +507,6 @@ The Cataclysm source is compiled using `make`.
 ### Make options
 
 * `NATIVE=osx` build for OS X. Required for all Mac builds. This is automatically set if compiling natively on macOS.
-* `OSX_MIN=version` sets `-mmacosx-version-min=` (for OS X > 10.5 set it to 10.6 or higher); omit for 10.5. 10.12 or higher is highly recommended (see ISSUES below). The default value is current system version.
 * `TILES=1` build the SDL version with graphical tiles (and graphical ASCII); omit to build with `ncurses`.
 * `SOUND=1` - if you want sound; this requires `TILES=1` and the additional dependencies mentioned above.
 * `FRAMEWORK=1` (tiles only) link to SDL libraries under the OS X Frameworks folders; omit to use SDL shared libraries from Homebrew or Macports.
@@ -539,36 +515,41 @@ The Cataclysm source is compiled using `make`.
 * `RELEASE=1` build an optimized release version; omit for debug build.
 * `CLANG=1` build with [Clang](http://clang.llvm.org/), the compiler that's included with the latest Command Line Tools for Xcode; omit to build using gcc/g++. This is enabled by default.
 * `MACPORTS=1` build against dependencies installed via Macports, currently only `gettext` and `ncurses`.
-* `USE_HOME_DIR=1` places user files (config, saves, graveyard, etc) in the user's home directory. For curses builds, this is `/Users/<user>/.cataclysm-dda`, for SDL builds it is `/Users/<user>/Library/Application Support/Cataclysm`.
+* `USE_HOME_DIR=1` places user files (config, saves, graveyard, etc) in the user's home directory. For curses builds, this is `/Users/<user>/.cataclysm-dda`, for OSX builds it is `/Users/<user>/Library/Application Support/Cataclysm`.
 * `DEBUG_SYMBOLS=1` retains debug symbols when building an optimized release binary, making it easy for developers to spot the crash site.
 
 In addition to the options above, there is an `app` make target which will package the tiles build into `Cataclysm.app`, a complete tiles build in a Mac application that can run without Terminal.
 
-For more info, see the comments in the `Makefile`.
+For more info, see the comments in the [Makefile](../../Makefile).
 
 ### Make examples
 
+The command I usually use for building CD2040:
+
+    make app RELEASE=1 TILES=1 LOCALIZE=0 SOUND=1 NATIVE=osx
+
 Build a release SDL version using Clang without gettext:
 
-    `make RELEASE=1 TILES=1 LOCALIZE=0`
+    make RELEASE=1 TILES=1 LOCALIZE=0
 
 Build a release SDL version using Clang, link to libraries in the OS X Frameworks folders, don't use `gettext`, and package it into `Cataclysm.app`:
 
-    `make app RELEASE=1 TILES=1 FRAMEWORK=1 LOCALIZE=0`
+    make app RELEASE=1 TILES=1 FRAMEWORK=1 LOCALIZE=0
 
 Build a release curses version with gettext supplied by Macports:
 
-    `make RELEASE=1 LOCALIZE=1 MACPORTS=1`
+    make RELEASE=1 LOCALIZE=1 MACPORTS=1
+
 
 ### Running
 
 For curses builds:
 
-    `./cataclysm`
+    ./cataclysm
 
 For SDL:
 
-    `./cataclysm-tiles`
+    ./cataclysm-tiles
 
 For `app` builds, launch Cataclysm.app from Finder.
 
@@ -591,26 +572,35 @@ sudo pip install dmgbuild pyobjc-framework-Quartz
 
 Once `dmgbuild` is installed, you will be able to use the `dmgdist` target like this. The use of `USE_HOME_DIR=1` is important here because it will allow for an easy upgrade of the game while keeping the user config and his saves in his home directory.
 
-    `make dmgdist NATIVE=osx OSX_MIN=10.12 RELEASE=1 TILES=1 FRAMEWORK=1 LOCALIZE=0 CLANG=1 USE_HOME_DIR=1`
+    make dmgdist NATIVE=osx RELEASE=1 TILES=1 FRAMEWORK=1 LOCALIZE=0 CLANG=1 USE_HOME_DIR=1
 
 You should see a `Cataclysm.dmg` file.
 
 ## Mac OS X Troubleshooting
 
-### ISSUE: crash on startup due to libint.8.dylib aborting
-
-If you're compiling on Mountain Lion or above, it won't be possible to run successfully on older OS X versions due to libint.8 / pthreads version issue.
-
-From https://wiki.gnome.org/GTK+/OSX/Building:
-
-> "There's another issue with building on Lion or Mountain Lion using either "native" or the 10.7 SDK: Apple has updated the pthreads implementation to provide recursive locking. This would be good except that Gettext's libintl uses this and if the pthreads implementation doesn't provide it it fabricates its own. Since the Lion pthreads does provide it, libintl links the provided function and then crashes when you try to run it against an older version of the library. The simplest solution is to specify the 10.6 SDK when building on Lion, but that won't work on Mountain Lion, which doesn't include it. See below for how to install and use XCode 3 on Lion and later for building applications compatible with earlier versions of OSX."
-
-Workaround: install XCode 3 like that article describes, or disable localization support in Cataclysm so gettext/libint are not dependencies. Or else simply don't support OS X versions below 10.7.
-
 ### ISSUE: Colors don't show up correctly
 
 Open Terminal's preferences, turn on "Use bright colors for bold text" in "Preferences -> Settings -> Text"
 
+### Error launching Cataclysm.app - "Killed: 9"
+
+When building for Apple Silicon, the default build script will do some wacky stuff regarding executable signatures, causing the app to immediately crash on launch without some fixes. These steps will walk you through how to get it to actually work. I haven't yet figured out the build script enough to fix it in the build process itself, so here's the hacky fix!
+
+When you run a `make app` command, you'll get a `cataclysm-tiles` binary in your repo root as well as a `Cataclysm.app/` application bundle:
+
+    ~/
+    ├── Cataclysm.app/
+    │   └── Contents/
+    │       ├── MacOS/
+    │       └── Resources/
+    │           └── cataclysm-tiles
+    └── cataclysm-tiles
+
+What you will want to do is copy the `cataclysm-tiles` in your repo root to replace the `Cataclysm.app/Resources/cataclysm-tiles` binary. This will ensure that the executable in the .app directory hasn't had its signature invalidated during the app bundler process.
+
+Unfortunately, we're not done yet. The other problem we run into is that dynamic libraries aren't bundled properly via the build script. We can fix this using a tool called [macdylibbundler](https://github.com/auriamg/macdylibbundler) (Homebrew package: `dylibbundler`). We can use the following command to fix and repackage our dylibs in Cataclysm.app:
+
+    dylibbundler -of -b -x Cataclysm.app/Contents/Resources/cataclysm-tiles -d Cataclysm.app/Contents/Resources/ -p @Cataclysm.app/
 
 # Windows
 
