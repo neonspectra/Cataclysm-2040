@@ -20,7 +20,7 @@
 #        FRAMEWORKSDIR=../Frameworks
 # Win32 (non-Cygwin)
 #   Run: make NATIVE=win32
-# OS X
+# OS X (Apple Silicon only -- Intel Macs NOT SUPPORTED)
 #   Run: make NATIVE=osx
 
 # Build types:
@@ -522,12 +522,8 @@ endif
 # OSX
 ifeq ($(NATIVE), osx)
   DEFINES += -DMACOSX
-  CXXFLAGS += -mmacosx-version-min=10.13
-  LDFLAGS += -mmacosx-version-min=10.13 -framework CoreFoundation -Wl,-headerpad_max_install_names
-  ifeq ($(UNIVERSAL_BINARY), 1)
-    CXXFLAGS += -arch x86_64 -arch arm64
-    LDFLAGS += -arch x86_64 -arch arm64
-  endif
+  CXXFLAGS += -mmacosx-version-min=10.13 -arch arm64
+  LDFLAGS += -mmacosx-version-min=10.13 -arch arm64 -framework CoreFoundation -Wl,-headerpad_max_install_names
   ifdef FRAMEWORK
     ifeq ($(FRAMEWORKSDIR),)
       FRAMEWORKSDIR := $(strip $(if $(shell [ -d $(HOME)/Library/Frameworks ] && echo 1), \
