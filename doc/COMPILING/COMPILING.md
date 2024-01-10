@@ -476,7 +476,7 @@ hash -r
 
 ### gcc
 
-> [!NOTE}
+> [!NOTE]
 > We recommend you skip this section and use the native Apple LLVM and have not tested compilation with GCC. This information exists only if you really want to use GCC for some reason, and your mileage may vary.
 
 The version of gcc/g++ installed with the [Command Line Tools for Xcode](https://developer.apple.com/downloads/) is actually just a front end for the same Apple LLVM as clang.  This doesn't necessarily cause issues, but this version of gcc/g++ will have clang error messages and essentially produce the same results as if using clang. To compile with the "real" gcc/g++, install it with homebrew:
