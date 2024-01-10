@@ -25,7 +25,7 @@
     "time": "2 h",
     "autolearn": true,
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking", "required": false, "time_multiplier": 1.5 },
       { "proficiency": "prof_plumbing", "required": false, "time_multiplier": 3, "fail_multiplier": 1.5 }
     ],
@@ -43,7 +43,7 @@
     "autolearn": true,
     "book_learn": [ [ "textbook_fabrication", 4 ], [ "manual_fabrication", 4 ] ],
     "using": [ [ "blacksmithing_standard", 8 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_toolsmithing" }
@@ -132,7 +132,7 @@
     "time": "30 m",
     "autolearn": true,
     "using": [ [ "welding_standard", 5 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_welding_basic", "fail_multiplier": 1.5 },
       { "proficiency": "prof_welding" }
@@ -160,7 +160,7 @@
     "autolearn": true,
     "using": [ [ "soldering_standard", 40 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
-    "proficiencies": [ { "proficiency": "prof_plasticworking" } ],
+    "//proficiencies": [ { "proficiency": "prof_plasticworking" } ],
     "components": [
       [ [ "e_scrap", 5 ], [ "makeshift_transformer", 5 ] ],
       [ [ "amplifier", 1 ], [ "makeshift_transformer", 2 ] ],
@@ -194,7 +194,7 @@
       { "id": "DRILL", "level": 2 },
       { "id": "FILE", "level": 2 }
     ],
-    "proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_blacksmithing" } ],
+    "//proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_blacksmithing" } ],
     "components": [
       [ [ "pipe", 2 ] ],
       [ [ "hose", 1 ], [ "makeshift_hose", 1 ] ],
@@ -229,7 +229,7 @@
     "time": "2 h",
     "autolearn": true,
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH", "level": 1 } ],
-    "proficiencies": [ { "proficiency": "prof_metalworking", "required": false, "time_multiplier": 1.5 } ],
+    "//proficiencies": [ { "proficiency": "prof_metalworking", "required": false, "time_multiplier": 1.5 } ],
     "tools": [ [ [ "metal_file", -1 ] ] ],
     "components": [ [ [ "simple_crank", 2 ] ], [ [ "sheet_metal", 1 ] ], [ [ "chain", 3 ] ] ]
   },

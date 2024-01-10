@@ -21,7 +21,7 @@
         [ "pistol_tiny_casing", -1 ]
       ]
     ],
-    "proficiencies": [ { "proficiency": "prof_gunsmithing_basic" }, { "proficiency": "prof_gunsmithing_improv" } ],
+    "//proficiencies": [ { "proficiency": "prof_gunsmithing_basic" }, { "proficiency": "prof_gunsmithing_improv" } ],
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
     "components": [ [ [ "pipe", 1 ] ], [ [ "scrap", 1 ] ], [ [ "duct_tape", 50 ] ] ]
   },
@@ -56,7 +56,7 @@
         [ "pistol_magnum_casing", -1 ]
       ]
     ],
-    "proficiencies": [ { "proficiency": "prof_gunsmithing_basic" }, { "proficiency": "prof_gunsmithing_improv" } ],
+    "//proficiencies": [ { "proficiency": "prof_gunsmithing_basic" }, { "proficiency": "prof_gunsmithing_improv" } ],
     "components": [ [ [ "pipe", 1 ] ], [ [ "scrap", 2 ] ], [ [ "steel_chunk", 1 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
@@ -93,7 +93,7 @@
         [ "shot_casing", -1 ]
       ]
     ],
-    "proficiencies": [ { "proficiency": "prof_gunsmithing_basic" }, { "proficiency": "prof_gunsmithing_improv" } ],
+    "//proficiencies": [ { "proficiency": "prof_gunsmithing_basic" }, { "proficiency": "prof_gunsmithing_improv" } ],
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
     "components": [ [ [ "pipe", 2 ] ], [ [ "scrap", 3 ] ], [ [ "2x4", 1 ] ] ]
   },
@@ -110,7 +110,7 @@
     "autolearn": true,
     "book_learn": [ [ "manual_pistol", 5 ], [ "mag_pistol", 6 ] ],
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW", "level": 1 } ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_gunsmithing_basic" },
@@ -134,7 +134,7 @@
     "autolearn": true,
     "book_learn": [ [ "manual_rifle", 5 ], [ "mag_rifle", 6 ] ],
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW", "level": 1 } ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_gunsmithing_basic" },
@@ -181,7 +181,7 @@
         [ "shot_hull", -1 ]
       ]
     ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_welding_basic" },
       { "proficiency": "prof_gunsmithing_improv" }
@@ -228,7 +228,7 @@
         [ "shot_hull", -1 ]
       ]
     ],
-    "proficiencies": [ { "proficiency": "prof_gunsmithing_basic" }, { "proficiency": "prof_gunsmithing_improv" } ],
+    "//proficiencies": [ { "proficiency": "prof_gunsmithing_basic" }, { "proficiency": "prof_gunsmithing_improv" } ],
     "components": [ [ [ "pipe", 2 ] ], [ [ "nail", 1 ] ], [ [ "pipe_fittings", 1 ] ] ]
   },
   {
@@ -267,7 +267,7 @@
         [ "shot_hull", -1 ]
       ]
     ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_welding_basic" },
       { "proficiency": "prof_gunsmithing_improv" }
@@ -316,7 +316,7 @@
         [ "shot_hull", -1 ]
       ]
     ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_welding_basic" },
       { "proficiency": "prof_gunsmithing_improv" }
@@ -336,7 +336,7 @@
     "time": "2 h",
     "autolearn": true,
     "using": [ [ "welding_standard", 1 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_welding_basic" },
       { "proficiency": "prof_gunsmithing_improv" }
@@ -354,7 +354,7 @@
     "skills_required": [ [ "gun", 1 ] ],
     "time": "1 h",
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_gunsmithing_improv" } ],
+    "//proficiencies": [ { "proficiency": "prof_gunsmithing_improv" } ],
     "components": [ [ [ "slamfire_shotgun", 2 ] ], [ [ "duct_tape", 100 ] ] ]
   }
 ]

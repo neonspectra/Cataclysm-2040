@@ -11,7 +11,7 @@
     "batch_time_factors": [ 67, 5 ],
     "qualities": [ { "id": "COOK", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 7, "LIST" ] ] ],
-    "proficiencies": [ { "proficiency": "prof_food_prep" } ],
+    "//proficiencies": [ { "proficiency": "prof_food_prep" } ],
     "components": [ [ [ "cnidarian", 1 ] ] ]
   },
   {
@@ -26,7 +26,7 @@
     "batch_time_factors": [ 67, 5 ],
     "qualities": [ { "id": "COOK", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 7, "LIST" ] ] ],
-    "proficiencies": [ { "proficiency": "prof_food_prep" } ],
+    "//proficiencies": [ { "proficiency": "prof_food_prep" } ],
     "components": [ [ [ "echinoderm", 1 ] ] ]
   }
 ]

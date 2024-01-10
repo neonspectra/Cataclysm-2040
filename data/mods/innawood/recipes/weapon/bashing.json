@@ -9,7 +9,7 @@
     "time": "25 m",
     "autolearn": true,
     "qualities": [ { "id": "SAW_W", "level": 1 } ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_carpentry_basic", "fail_multiplier": 1 },
       { "proficiency": "prof_carving", "fail_multiplier": 1 }
     ],

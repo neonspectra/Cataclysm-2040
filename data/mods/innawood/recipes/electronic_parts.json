@@ -11,7 +11,7 @@
     "time": "30 m",
     "autolearn": true,
     "using": [ [ "soldering_standard", 10 ], [ "glazing", 2 ], [ "earthenware_firing", 120 ] ],
-    "proficiencies": [ { "proficiency": "prof_plasticworking" } ],
+    "//proficiencies": [ { "proficiency": "prof_plasticworking" } ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
     "components": [
       [ [ "scrap", 4 ] ],
@@ -31,7 +31,7 @@
     "difficulty": 4,
     "time": "30 m",
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_glassblowing" } ],
+    "//proficiencies": [ { "proficiency": "prof_glassblowing" } ],
     "qualities": [ { "id": "CHISEL", "level": 3 } ],
     "tools": [ [ [ "tongs", -1 ] ], [ [ "pipe", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 75 ] ] ],
     "components": [
@@ -54,7 +54,7 @@
     "reversible": true,
     "using": [ [ "soldering_standard", 20 ] ],
     "qualities": [ { "id": "HAMMER", "level": 2 } ],
-    "proficiencies": [ { "proficiency": "prof_elec_soldering" }, { "proficiency": "prof_elec_circuits" } ],
+    "//proficiencies": [ { "proficiency": "prof_elec_soldering" }, { "proficiency": "prof_elec_circuits" } ],
     "components": [
       [ [ "battery_car_clay", 4 ] ],
       [ [ "makeshift_transformer", 2 ] ],

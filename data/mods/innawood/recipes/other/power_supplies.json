@@ -12,7 +12,7 @@
     "decomp_learn": 0,
     "autolearn": [ [ "electronics", 2 ] ],
     "book_learn": [ [ "manual_electronics", 0 ], [ "mag_electronics", 1 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_plasticworking" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_circuits" },

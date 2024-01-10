@@ -9,7 +9,7 @@
     "difficulty": 4,
     "time": "3 h",
     "autolearn": true,
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_redsmithing" },
       { "proficiency": "prof_carving", "fail_multiplier": 1 }
@@ -30,7 +30,7 @@
     "time": "6 h",
     "book_learn": [ [ "textbook_weapwest", 6 ] ],
     "autolearn": true,
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },

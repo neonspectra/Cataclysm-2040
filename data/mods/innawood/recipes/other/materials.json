@@ -54,7 +54,7 @@
     "difficulty": 4,
     "time": "30 m",
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_glassblowing" } ],
+    "//proficiencies": [ { "proficiency": "prof_glassblowing" } ],
     "result_mult": 4,
     "qualities": [ { "id": "CHEM", "level": 1 } ],
     "tools": [
@@ -83,7 +83,7 @@
     "difficulty": 4,
     "time": "30 m",
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_glassblowing" } ],
+    "//proficiencies": [ { "proficiency": "prof_glassblowing" } ],
     "result_mult": 4,
     "qualities": [ { "id": "CHEM", "level": 1 } ],
     "tools": [
@@ -105,7 +105,7 @@
     "time": "30 m",
     "autolearn": true,
     "batch_time_factors": [ 90, 2 ],
-    "proficiencies": [ { "proficiency": "prof_glassblowing" } ],
+    "//proficiencies": [ { "proficiency": "prof_glassblowing" } ],
     "qualities": [ { "id": "CHEM", "level": 1 } ],
     "tools": [
       [ [ "tongs", -1 ] ],
@@ -125,7 +125,7 @@
     "difficulty": 2,
     "time": "10 m",
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_weaving" } ],
+    "//proficiencies": [ { "proficiency": "prof_weaving" } ],
     "tools": [ [ [ "loom_frame", -1 ] ], [ [ "shed_stick", -1 ] ] ],
     "qualities": [ { "id": "CUT", "level": 2 } ],
     "components": [ [ [ "plant_fibre", 5 ] ] ]
@@ -141,7 +141,7 @@
     "batch_time_factors": [ 70, 1 ],
     "time": "5 m",
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_weaving" } ],
+    "//proficiencies": [ { "proficiency": "prof_weaving" } ],
     "tools": [ [ [ "spinwheelitem", -1 ] ] ],
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "plant_fibre", 5 ] ] ]
@@ -157,7 +157,7 @@
     "time": "4 h",
     "batch_time_factors": [ 90, 2 ],
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_blacksmithing" } ],
+    "//proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_blacksmithing" } ],
     "tools": [ [ [ "tongs", -1 ] ], [ [ "metal_tank", -1 ] ], [ [ "forge", 500 ] ] ],
     "components": [ [ [ "steel_lump", 1 ], [ "steel_chunk", 4 ], [ "scrap", 20 ] ], [ [ "coal_lump", 64 ], [ "charcoal", 40 ] ] ]
   },
@@ -172,7 +172,7 @@
     "time": "6 h",
     "batch_time_factors": [ 90, 2 ],
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_blacksmithing" } ],
+    "//proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_blacksmithing" } ],
     "tools": [ [ [ "tongs", -1 ] ], [ [ "metal_tank", -1 ] ], [ [ "forge", 500 ] ] ],
     "components": [ [ [ "steel_lump", 1 ], [ "steel_chunk", 4 ], [ "scrap", 20 ] ], [ [ "coal_lump", 77 ], [ "charcoal", 48 ] ] ]
   },
@@ -187,7 +187,7 @@
     "time": "7 h",
     "batch_time_factors": [ 90, 2 ],
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_blacksmithing" } ],
+    "//proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_blacksmithing" } ],
     "tools": [ [ [ "tongs", -1 ] ], [ [ "metal_tank", -1 ] ], [ [ "forge", 500 ] ] ],
     "components": [ [ [ "steel_lump", 1 ], [ "steel_chunk", 4 ], [ "scrap", 20 ] ], [ [ "coal_lump", 90 ], [ "charcoal", 68 ] ] ]
   },
@@ -203,7 +203,7 @@
     "time": "3 h",
     "batch_time_factors": [ 90, 2 ],
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_blacksmithing" } ],
+    "//proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_blacksmithing" } ],
     "tools": [ [ [ "tongs", -1 ] ], [ [ "metal_tank", -1 ] ], [ [ "forge", 200 ] ] ],
     "components": [
       [
