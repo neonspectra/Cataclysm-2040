@@ -418,7 +418,7 @@ The app stores data files on the device in `/sdcard/Android/data/com.cleverraven
 
 To build Cataclysm on Mac you'll need [Command Line Tools for Xcode](https://developer.apple.com/downloads/) and either the [Homebrew](http://brew.sh) or [MacPorts](https://www.macports.org/) package manager for installing build dependencies. The maintainer of this project has not tested builds with MacPorts, and Homebrew is recommended.
 
-Unlike DDA, CD2040 does not have a Homebrew formrla for building, unfortunately. As of this writing, I'm only one person and the amount I can reasonably do is very limited. The instructions below are for compiling CD2040 from an Apple Silicon Mac.
+Unlike DDA, CD2040 does not have a Homebrew formula for building, unfortunately. As of this writing, I'm only one person and the amount I can reasonably do is very limited. The instructions below are for compiling CD2040 from an Apple Silicon Mac.
 
 Furthermore, CD2040 is **only** supported on Apple Silicon. I don't have an Intel Mac, and they're on the way out anyway. If you want to compile it for Intel, you're on your own. Same goes for cross-compilation from a different platform.
 
