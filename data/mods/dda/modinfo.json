@@ -7,5 +7,6 @@
     "category": "content",
     "core": true,
     "path": "../../json"
+    "dependencies": [ "aftershock" ]
   }
 ]
