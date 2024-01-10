@@ -85,7 +85,7 @@
     "result_mult": 8,
     "book_learn": [ [ "dairy_book", 1 ] ],
     "qualities": [ { "id": "COOK", "level": 1 } ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_food_prep" },
       { "proficiency": "prof_cheesemaking_1" },
       { "proficiency": "prof_cheesemaking_2" }

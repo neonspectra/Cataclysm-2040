@@ -114,7 +114,7 @@
     "batch_time_factors": [ 90, 4 ],
     "autolearn": true,
     "using": [ [ "forging_standard", 1 ] ],
-    "proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_redsmithing" } ],
+    "//proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_redsmithing" } ],
     "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
     "components": [
       [
@@ -230,7 +230,7 @@
     "skill_used": "fabrication",
     "time": "10 m",
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_plasticworking", "required": false, "time_multiplier": 1.5 } ],
+    "//proficiencies": [ { "proficiency": "prof_plasticworking", "required": false, "time_multiplier": 1.5 } ],
     "tools": [ [ [ "surface_heat", 4, "LIST" ] ], [ [ "mold_plastic", -1 ] ] ],
     "components": [
       [
@@ -452,7 +452,7 @@
     "skills_required": [ "fabrication", 1 ],
     "time": "10 m",
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_spinning", "fail_multiplier": 1.5 } ],
+    "//proficiencies": [ { "proficiency": "prof_spinning", "fail_multiplier": 1.5 } ],
     "tools": [ [ [ "distaff_spindle", -1 ] ] ],
     "components": [ [ [ "cotton_ball", 3 ] ] ]
   },
@@ -467,7 +467,7 @@
     "skill_used": "tailor",
     "time": "30 s",
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_spinning", "fail_multiplier": 1.5 } ],
+    "//proficiencies": [ { "proficiency": "prof_spinning", "fail_multiplier": 1.5 } ],
     "tools": [ [ [ "spinwheelitem", -1 ] ] ],
     "components": [ [ [ "cotton_ball", 3 ] ] ]
   },
@@ -482,7 +482,7 @@
     "skill_used": "tailor",
     "time": "30 s",
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_spinning", "fail_multiplier": 1.5 } ],
+    "//proficiencies": [ { "proficiency": "prof_spinning", "fail_multiplier": 1.5 } ],
     "tools": [ [ [ "electric_spinwheel", 2 ] ] ],
     "components": [ [ [ "cotton_ball", 3 ] ] ]
   },
@@ -498,7 +498,7 @@
     "autolearn": true,
     "charges": 1,
     "components": [ [ [ "thread", 3 ], [ "sinew", 3 ], [ "yarn", 3 ], [ "plant_fibre", 3 ] ] ],
-    "proficiencies": [ { "proficiency": "prof_fibers" } ]
+    "//proficiencies": [ { "proficiency": "prof_fibers" } ]
   },
   {
     "type": "recipe",
@@ -512,7 +512,7 @@
     "time": "5 m",
     "autolearn": true,
     "tools": [ [ [ "spinwheelitem", -1 ] ] ],
-    "proficiencies": [ { "proficiency": "prof_spinning", "required": false, "time_multiplier": 1.5 } ],
+    "//proficiencies": [ { "proficiency": "prof_spinning", "required": false, "time_multiplier": 1.5 } ],
     "components": [ [ [ "thread", 150 ], [ "sinew", 150 ], [ "yarn", 150 ], [ "plant_fibre", 150 ], [ "cotton_ball", 9 ] ] ]
   },
   {
@@ -527,7 +527,7 @@
     "time": "5 m",
     "autolearn": true,
     "tools": [ [ [ "electric_spinwheel", 11 ] ] ],
-    "proficiencies": [ { "proficiency": "prof_spinning", "required": false, "time_multiplier": 1.5 } ],
+    "//proficiencies": [ { "proficiency": "prof_spinning", "required": false, "time_multiplier": 1.5 } ],
     "components": [ [ [ "thread", 150 ], [ "sinew", 150 ], [ "yarn", 150 ], [ "plant_fibre", 150 ], [ "cotton_ball", 9 ] ] ]
   },
   {
@@ -540,7 +540,7 @@
     "difficulty": 1,
     "time": "30 m",
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_spinning" }, { "proficiency": "prof_fibers" } ],
+    "//proficiencies": [ { "proficiency": "prof_spinning" }, { "proficiency": "prof_fibers" } ],
     "qualities": [ { "id": "CUT", "level": 2 } ],
     "tools": [ [ [ "distaff_spindle", -1 ] ] ],
     "components": [ [ [ "straw_pile", 5 ], [ "withered", 5 ] ] ]
@@ -556,7 +556,7 @@
     "batch_time_factors": [ 70, 1 ],
     "time": "90 s",
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_spinning" }, { "proficiency": "prof_fibers" } ],
+    "//proficiencies": [ { "proficiency": "prof_spinning" }, { "proficiency": "prof_fibers" } ],
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "tools": [ [ [ "spinwheelitem", -1 ] ] ],
     "components": [ [ [ "straw_pile", 5 ], [ "withered", 5 ] ] ]
@@ -572,7 +572,7 @@
     "batch_time_factors": [ 70, 1 ],
     "time": "90 s",
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_spinning" }, { "proficiency": "prof_fibers" } ],
+    "//proficiencies": [ { "proficiency": "prof_spinning" }, { "proficiency": "prof_fibers" } ],
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "tools": [ [ [ "electric_spinwheel", 4 ] ] ],
     "components": [ [ [ "straw_pile", 5 ], [ "withered", 5 ] ] ]
@@ -587,7 +587,7 @@
     "difficulty": 1,
     "time": "30 m",
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_spinning" }, { "proficiency": "prof_fibers" } ],
+    "//proficiencies": [ { "proficiency": "prof_spinning" }, { "proficiency": "prof_fibers" } ],
     "qualities": [ { "id": "CUT", "level": 2 } ],
     "tools": [ [ [ "distaff_spindle", -1 ] ] ],
     "components": [ [ [ "wool_staple", 1 ] ] ]
@@ -603,7 +603,7 @@
     "batch_time_factors": [ 70, 1 ],
     "time": "90 s",
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_spinning" }, { "proficiency": "prof_fibers" } ],
+    "//proficiencies": [ { "proficiency": "prof_spinning" }, { "proficiency": "prof_fibers" } ],
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "tools": [ [ [ "spinwheelitem", -1 ] ] ],
     "components": [ [ [ "wool_staple", 1 ] ] ]
@@ -619,7 +619,7 @@
     "batch_time_factors": [ 70, 1 ],
     "time": "90 s",
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_spinning" }, { "proficiency": "prof_fibers" } ],
+    "//proficiencies": [ { "proficiency": "prof_spinning" }, { "proficiency": "prof_fibers" } ],
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "tools": [ [ [ "electric_spinwheel", 4 ] ] ],
     "components": [ [ [ "wool_staple", 1 ] ] ]
@@ -638,7 +638,7 @@
     "autolearn": true,
     "using": [ [ "filament", 80 ] ],
     "qualities": [ { "id": "KNIT", "level": 1 } ],
-    "proficiencies": [ { "proficiency": "prof_knitting" }, { "proficiency": "prof_knitting_speed" } ]
+    "//proficiencies": [ { "proficiency": "prof_knitting" }, { "proficiency": "prof_knitting_speed" } ]
   },
   {
     "type": "recipe",
@@ -654,7 +654,7 @@
     "autolearn": true,
     "tools": [ [ [ "spinwheelitem", -1 ] ] ],
     "using": [ [ "filament", 80 ] ],
-    "proficiencies": [ { "proficiency": "prof_knitting" }, { "proficiency": "prof_knitting_speed" } ]
+    "//proficiencies": [ { "proficiency": "prof_knitting" }, { "proficiency": "prof_knitting_speed" } ]
   },
   {
     "type": "recipe",
@@ -679,7 +679,7 @@
     "autolearn": true,
     "reversible": true,
     "using": [ [ "sewing_kevlar", 15 ] ],
-    "proficiencies": [ { "proficiency": "prof_polymerworking" } ],
+    "//proficiencies": [ { "proficiency": "prof_polymerworking" } ],
     "components": [ [ [ "sheet_kevlar", 16 ] ], [ [ "thread", 30 ] ] ]
   },
   {
@@ -704,7 +704,7 @@
     "skill_used": "tailor",
     "time": "45 m",
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_polymerworking" } ],
+    "//proficiencies": [ { "proficiency": "prof_polymerworking" } ],
     "components": [ [ [ "sheet_kevlar", 16 ], [ "sheet_kevlar_layered", 1 ] ], [ [ "superglue", 1 ] ] ]
   },
   {
@@ -717,7 +717,7 @@
     "difficulty": 2,
     "time": "1 h 40 m",
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_weaving" } ],
+    "//proficiencies": [ { "proficiency": "prof_weaving" } ],
     "tools": [ [ [ "loom_frame", -1 ] ], [ [ "shed_stick", -1 ] ] ],
     "qualities": [ { "id": "CUT", "level": 2 } ],
     "components": [ [ [ "thread", 50 ] ] ]
@@ -733,7 +733,7 @@
     "batch_time_factors": [ 70, 1 ],
     "time": "50 m",
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_weaving" } ],
+    "//proficiencies": [ { "proficiency": "prof_weaving" } ],
     "tools": [ [ [ "spinwheelitem", -1 ] ] ],
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "thread", 50 ] ] ]
@@ -749,7 +749,7 @@
     "batch_time_factors": [ 70, 1 ],
     "time": "50 m",
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_weaving" } ],
+    "//proficiencies": [ { "proficiency": "prof_weaving" } ],
     "tools": [ [ [ "electric_spinwheel", 101 ] ] ],
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "thread", 50 ] ] ]
@@ -788,7 +788,7 @@
     "difficulty": 3,
     "time": "2 h 30 m",
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_weaving" }, { "proficiency": "prof_closures_waterproofing" } ],
+    "//proficiencies": [ { "proficiency": "prof_weaving" }, { "proficiency": "prof_closures_waterproofing" } ],
     "tools": [ [ [ "loom_frame", -1 ] ], [ [ "shed_stick", -1 ] ] ],
     "qualities": [ { "id": "CUT", "level": 2 } ],
     "components": [ [ [ "thread_canvas", 80 ] ], [ [ "wax", 1 ] ] ]
@@ -804,7 +804,7 @@
     "batch_time_factors": [ 50, 1 ],
     "time": "1 h 30 m",
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_weaving" }, { "proficiency": "prof_closures_waterproofing" } ],
+    "//proficiencies": [ { "proficiency": "prof_weaving" }, { "proficiency": "prof_closures_waterproofing" } ],
     "tools": [ [ [ "spinwheelitem", -1 ] ] ],
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "thread_canvas", 80 ] ], [ [ "wax", 1 ] ] ]
@@ -820,7 +820,7 @@
     "batch_time_factors": [ 50, 1 ],
     "time": "1 h 30 m",
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_weaving" }, { "proficiency": "prof_closures_waterproofing" } ],
+    "//proficiencies": [ { "proficiency": "prof_weaving" }, { "proficiency": "prof_closures_waterproofing" } ],
     "tools": [ [ [ "electric_spinwheel", 181 ] ] ],
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "thread_canvas", 80 ] ], [ [ "wax", 1 ] ] ]
@@ -1047,7 +1047,7 @@
     "difficulty": 4,
     "time": "30 m",
     "book_learn": [ [ "glassblowing_book", 5 ] ],
-    "proficiencies": [ { "proficiency": "prof_glassblowing" } ],
+    "//proficiencies": [ { "proficiency": "prof_glassblowing" } ],
     "result_mult": 4,
     "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "sheet_metal", -1 ] ], [ [ "forge", 25 ], [ "oxy_torch", 5 ] ] ],
     "components": [
@@ -1067,7 +1067,7 @@
     "time": "30 m",
     "book_learn": [ [ "glassblowing_book", 4 ], [ "textbook_fabrication", 5 ], [ "welding_book", 5 ] ],
     "batch_time_factors": [ 90, 2 ],
-    "proficiencies": [ { "proficiency": "prof_glassblowing" } ],
+    "//proficiencies": [ { "proficiency": "prof_glassblowing" } ],
     "qualities": [ { "id": "CHEM", "level": 1 } ],
     "tools": [
       [ [ "tongs", -1 ] ],
@@ -1094,7 +1094,7 @@
       { "id": "CUT", "level": 2 },
       { "id": "FILE", "level": 1 }
     ],
-    "proficiencies": [ { "proficiency": "prof_carving", "time_multiplier": 1.25, "fail_multiplier": 1.125 } ],
+    "//proficiencies": [ { "proficiency": "prof_carving", "time_multiplier": 1.25, "fail_multiplier": 1.125 } ],
     "components": [ [ [ "mop", 1 ], [ "stick", 1 ], [ "broom", 1 ] ], [ [ "wax", 1 ], [ "rosin", 1 ] ] ]
   },
   {
@@ -1110,7 +1110,7 @@
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 2 }, [ { "id": "PUNCH", "level": 1 }, { "id": "DRILL", "level": 1 } ] ],
     "tools": [ [ [ "surface_heat", 5, "LIST" ] ] ],
-    "proficiencies": [ { "proficiency": "prof_plasticworking" } ],
+    "//proficiencies": [ { "proficiency": "prof_plasticworking" } ],
     "components": [ [ [ "plastic_chunk", 1 ] ] ]
   },
   {
@@ -1126,7 +1126,7 @@
     "charges": 5,
     "autolearn": true,
     "using": [ [ "blacksmithing_standard", 1 ] ],
-    "proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_blacksmithing" } ],
+    "//proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_blacksmithing" } ],
     "qualities": [ { "id": "FILE", "level": 1 } ],
     "tools": [ [ [ "hotcut", -1 ] ], [ [ "nail", -1 ] ] ],
     "components": [ [ [ "scrap", 1 ] ] ]
@@ -1144,7 +1144,7 @@
     "charges": 20,
     "autolearn": true,
     "using": [ [ "forging_standard", 1 ] ],
-    "proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_redsmithing" } ],
+    "//proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_redsmithing" } ],
     "qualities": [ { "id": "CUT", "level": 2 }, { "id": "FILE", "level": 1 } ],
     "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
     "//": "The idea is that you make bas-relief prints including the holes in the clay, pour then break the clay to get the buttons and file them down.",
@@ -1176,7 +1176,7 @@
     "time": "4 h",
     "batch_time_factors": [ 90, 2 ],
     "book_learn": [ [ "reference_fabrication1", 5 ], [ "welding_book", 5 ] ],
-    "proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_blacksmithing" } ],
+    "//proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_blacksmithing" } ],
     "tools": [ [ [ "tongs", -1 ] ], [ [ "metal_tank", -1 ] ], [ [ "forge", 500 ] ] ],
     "components": [ [ [ "steel_lump", 1 ], [ "steel_chunk", 4 ], [ "scrap", 20 ] ], [ [ "coal_lump", 64 ], [ "charcoal", 40 ] ] ]
   },
@@ -1191,7 +1191,7 @@
     "time": "6 h",
     "batch_time_factors": [ 90, 2 ],
     "book_learn": [ [ "reference_fabrication1", 5 ], [ "welding_book", 5 ] ],
-    "proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_blacksmithing" } ],
+    "//proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_blacksmithing" } ],
     "tools": [ [ [ "tongs", -1 ] ], [ [ "metal_tank", -1 ] ], [ [ "forge", 500 ] ] ],
     "components": [ [ [ "steel_lump", 1 ], [ "steel_chunk", 4 ], [ "scrap", 20 ] ], [ [ "coal_lump", 77 ], [ "charcoal", 48 ] ] ]
   },
@@ -1206,7 +1206,7 @@
     "time": "7 h",
     "batch_time_factors": [ 90, 2 ],
     "book_learn": [ [ "reference_fabrication1", 5 ], [ "welding_book", 5 ] ],
-    "proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_blacksmithing" } ],
+    "//proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_blacksmithing" } ],
     "tools": [ [ [ "tongs", -1 ] ], [ [ "metal_tank", -1 ] ], [ [ "forge", 500 ] ] ],
     "components": [ [ [ "steel_lump", 1 ], [ "steel_chunk", 4 ], [ "scrap", 20 ] ], [ [ "coal_lump", 90 ], [ "charcoal", 68 ] ] ]
   },
@@ -1222,7 +1222,7 @@
     "time": "3 h",
     "batch_time_factors": [ 90, 2 ],
     "book_learn": [ [ "reference_fabrication1", 5 ], [ "welding_book", 5 ] ],
-    "proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_blacksmithing" } ],
+    "//proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_blacksmithing" } ],
     "tools": [ [ [ "tongs", -1 ] ], [ [ "metal_tank", -1 ] ], [ [ "forge", 200 ] ] ],
     "components": [
       [
@@ -1244,7 +1244,7 @@
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "fabrication",
     "time": "30 minutes",
-    "proficiencies": [ { "proficiency": "prof_carving", "fail_multiplier": 1, "time_multiplier": 2 } ],
+    "//proficiencies": [ { "proficiency": "prof_carving", "fail_multiplier": 1, "time_multiplier": 2 } ],
     "qualities": [ { "id": "CUT", "level": 2 } ],
     "components": [ [ [ "2x4", 1 ] ] ],
     "byproducts": [ [ "splinter", 5 ] ],

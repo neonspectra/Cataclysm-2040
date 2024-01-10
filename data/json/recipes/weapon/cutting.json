@@ -9,7 +9,7 @@
     "difficulty": 7,
     "time": "360 m",
     "book_learn": [ [ "textbook_weapwest", 6 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -28,7 +28,7 @@
     "difficulty": 8,
     "time": "420 m",
     "book_learn": [ [ "textbook_weapwest", 7 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -48,7 +48,7 @@
     "difficulty": 8,
     "time": "420 m",
     "book_learn": [ [ "textbook_weapwest", 7 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -68,7 +68,7 @@
     "difficulty": 9,
     "time": "19 h",
     "book_learn": [ [ "textbook_weapwest", 8 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -89,7 +89,7 @@
     "difficulty": 10,
     "time": "1 d 1 h",
     "book_learn": [ [ "textbook_weapwest", 9 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -110,7 +110,7 @@
     "difficulty": 7,
     "time": "3 h",
     "book_learn": [ [ "textbook_armschina", 5 ] ],
-    "proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_redsmithing" } ],
+    "//proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_redsmithing" } ],
     "using": [ [ "forging_standard", 2 ], [ "bronzesmithing_tools", 1 ] ],
     "tools": [ [ [ "casting_mold", -1 ] ] ],
     "components": [
@@ -148,7 +148,7 @@
     "difficulty": 6,
     "time": "3 h",
     "book_learn": [ [ "textbook_weapwest", 4 ] ],
-    "proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_redsmithing" } ],
+    "//proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_redsmithing" } ],
     "using": [ [ "forging_standard", 2 ], [ "bronzesmithing_tools", 1 ] ],
     "tools": [ [ [ "casting_mold", -1 ] ] ],
     "components": [
@@ -174,7 +174,7 @@
     "difficulty": 7,
     "time": "3 h",
     "book_learn": [ [ "textbook_weapwest", 5 ] ],
-    "proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_redsmithing" } ],
+    "//proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_redsmithing" } ],
     "using": [ [ "forging_standard", 2 ], [ "bronzesmithing_tools", 1 ] ],
     "tools": [ [ [ "casting_mold", -1 ] ] ],
     "components": [
@@ -200,7 +200,7 @@
     "difficulty": 6,
     "time": "3 h",
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_redsmithing" } ],
+    "//proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_redsmithing" } ],
     "using": [ [ "forging_standard", 2 ], [ "bronzesmithing_tools", 1 ] ],
     "tools": [ [ [ "casting_mold", -1 ] ] ],
     "components": [
@@ -226,7 +226,7 @@
     "difficulty": 7,
     "time": "6 h",
     "book_learn": [ [ "textbook_weapwest", 6 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -248,7 +248,7 @@
     "time": "15 m",
     "reversible": true,
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_carving", "time_multiplier": 1.5, "fail_multiplier": 1 } ],
+    "//proficiencies": [ { "proficiency": "prof_carving", "time_multiplier": 1.5, "fail_multiplier": 1 } ],
     "components": [
       [ [ "duct_tape", 100 ] ],
       [ [ "blade", 1 ], [ "knife_meat_cleaver", 1 ], [ "knife_vegetable_cleaver", 1 ] ],
@@ -267,7 +267,7 @@
     "reversible": true,
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 2 }, { "id": "HAMMER", "level": 1 }, { "id": "DRILL", "level": 1 } ],
-    "proficiencies": [ { "proficiency": "prof_carving", "time_multiplier": 1.5, "fail_multiplier": 1.5 } ],
+    "//proficiencies": [ { "proficiency": "prof_carving", "time_multiplier": 1.5, "fail_multiplier": 1.5 } ],
     "components": [
       [ [ "duct_tape", 100 ] ],
       [ [ "blade", 1 ], [ "knife_meat_cleaver", 1 ], [ "knife_vegetable_cleaver", 1 ] ],
@@ -288,7 +288,7 @@
     "decomp_learn": 1,
     "autolearn": true,
     "qualities": [ { "id": "HAMMER", "level": 1 } ],
-    "proficiencies": [ { "proficiency": "prof_carving", "time_multiplier": 1.5, "fail_multiplier": 1 } ],
+    "//proficiencies": [ { "proficiency": "prof_carving", "time_multiplier": 1.5, "fail_multiplier": 1 } ],
     "components": [ [ [ "duct_tape", 50 ] ], [ [ "blade_scythe", 1 ] ], [ [ "stick_long", 1 ] ] ]
   },
   {
@@ -302,7 +302,7 @@
     "difficulty": 6,
     "time": "7 h 40 m",
     "autolearn": true,
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -325,7 +325,7 @@
     "time": "4 h",
     "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_melee", 5 ] ],
     "using": [ [ "welding_standard", 10 ] ],
-    "proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_welding_basic" }, { "proficiency": "prof_welding" } ],
+    "//proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_welding_basic" }, { "proficiency": "prof_welding" } ],
     "qualities": [
       { "id": "HAMMER", "level": 2 },
       { "id": "SAW_M", "level": 1 },
@@ -346,7 +346,7 @@
     "time": "4 h",
     "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_melee", 5 ] ],
     "using": [ [ "welding_standard", 10 ] ],
-    "proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_welding_basic" }, { "proficiency": "prof_welding" } ],
+    "//proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_welding_basic" }, { "proficiency": "prof_welding" } ],
     "qualities": [
       { "id": "HAMMER", "level": 2 },
       { "id": "SAW_M", "level": 1 },
@@ -365,7 +365,7 @@
     "skills_required": [ "gun", 1 ],
     "difficulty": 9,
     "time": "2 h",
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       {
@@ -393,7 +393,7 @@
     "difficulty": 4,
     "time": "30 m",
     "book_learn": [ [ "recipe_melee", 3 ], [ "textbook_weapeast", 8 ] ],
-    "proficiencies": [ { "proficiency": "prof_carving" } ],
+    "//proficiencies": [ { "proficiency": "prof_carving" } ],
     "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "SCREW", "level": 1 } ],
     "components": [ [ [ "2x4", 4 ], [ "stick", 8 ] ], [ [ "rebar", 5 ] ] ]
   },
@@ -407,7 +407,7 @@
     "difficulty": 8,
     "time": "6 h",
     "book_learn": [ [ "manual_knives", 9 ], [ "textbook_weapeast", 8 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       {
@@ -433,7 +433,7 @@
     "difficulty": 5,
     "time": "13 h 20 m",
     "book_learn": [ [ "textbook_weapeast", 6 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -494,7 +494,7 @@
     "difficulty": 7,
     "time": "6 h 40 m",
     "book_learn": [ [ "textbook_weapwest", 6 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -515,7 +515,7 @@
     "difficulty": 6,
     "time": "5 h 40 m",
     "book_learn": [ [ "textbook_weapwest", 5 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -534,7 +534,7 @@
     "difficulty": 7,
     "time": "6 h 40 m",
     "book_learn": [ [ "textbook_weapwest", 6 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -554,7 +554,7 @@
     "difficulty": 7,
     "time": "6 h 40 m",
     "book_learn": [ [ "textbook_weapwest", 6 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -574,7 +574,7 @@
     "difficulty": 8,
     "time": "18 h 40 m",
     "book_learn": [ [ "textbook_weapwest", 7 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -595,7 +595,7 @@
     "difficulty": 9,
     "time": "1 d 40 m",
     "book_learn": [ [ "textbook_weapwest", 8 ] ],
-    "proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_blacksmithing" }, { "proficiency": "prof_quenching" } ],
+    "//proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_blacksmithing" }, { "proficiency": "prof_quenching" } ],
     "using": [ [ "blacksmithing_standard", 12 ], [ "mc_steel_standard", 3 ] ],
     "qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 3 }, { "id": "GRIND", "level": 2 } ],
     "tools": [ [ [ "tongs", -1 ] ], [ [ "hotcut", -1 ] ], [ [ "metal_tank", -1 ] ], [ [ "water", -120 ], [ "water_clean", -120 ] ] ],
@@ -611,7 +611,7 @@
     "difficulty": 7,
     "time": "7 h",
     "book_learn": [ [ "textbook_weapwest", 6 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -630,7 +630,7 @@
     "difficulty": 8,
     "time": "8 h",
     "book_learn": [ [ "textbook_weapwest", 7 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -651,7 +651,7 @@
     "difficulty": 8,
     "time": "8 h",
     "book_learn": [ [ "textbook_weapwest", 7 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -672,7 +672,7 @@
     "difficulty": 8,
     "time": "22 h",
     "book_learn": [ [ "textbook_weapwest", 8 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -694,7 +694,7 @@
     "difficulty": 10,
     "time": "1 d",
     "book_learn": [ [ "textbook_weapwest", 9 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -716,7 +716,7 @@
     "difficulty": 7,
     "time": "6 h",
     "book_learn": [ [ "textbook_weapwest", 6 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -735,7 +735,7 @@
     "difficulty": 8,
     "time": "7 h",
     "book_learn": [ [ "textbook_weapwest", 7 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -755,7 +755,7 @@
     "difficulty": 8,
     "time": "7 h",
     "book_learn": [ [ "textbook_weapwest", 7 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -775,7 +775,7 @@
     "difficulty": 9,
     "time": "19 h",
     "book_learn": [ [ "textbook_weapwest", 8 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -796,7 +796,7 @@
     "difficulty": 10,
     "time": "1 d 1 h",
     "book_learn": [ [ "textbook_weapwest", 9 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -818,7 +818,7 @@
     "difficulty": 4,
     "time": "4 h",
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_metalworking" } ],
+    "//proficiencies": [ { "proficiency": "prof_metalworking" } ],
     "components": [ [ [ "sheet_metal", 1 ] ], [ [ "nuts_bolts", 4 ] ], [ [ "duct_tape", 25 ] ] ],
     "tools": [ [ [ "angle_grinder", 50 ] ] ],
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 2 }, { "id": "DRILL", "level": 2 } ]
@@ -834,7 +834,7 @@
     "difficulty": 4,
     "time": "4 h",
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_welding_basic" }, { "proficiency": "prof_welding" } ],
+    "//proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_welding_basic" }, { "proficiency": "prof_welding" } ],
     "using": [ [ "welding_standard", 5 ] ],
     "components": [ [ [ "sheet_metal", 1 ] ], [ [ "duct_tape", 25 ] ] ],
     "tools": [ [ [ "angle_grinder", 50 ] ] ],
@@ -851,7 +851,7 @@
     "difficulty": 4,
     "time": "5 h",
     "autolearn": true,
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_carving", "time_multiplier": 1.2, "fail_multiplier": 1 }
     ],
@@ -870,7 +870,7 @@
     "difficulty": 4,
     "time": "5 h",
     "autolearn": true,
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_carving", "time_multiplier": 1.2, "fail_multiplier": 1 },
       { "proficiency": "prof_welding_basic" },
@@ -891,7 +891,7 @@
     "difficulty": 5,
     "time": "5 h",
     "autolearn": true,
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -912,7 +912,7 @@
     "difficulty": 5,
     "time": "7 h",
     "autolearn": true,
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -933,7 +933,7 @@
     "difficulty": 5,
     "time": "4 h",
     "autolearn": true,
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -954,7 +954,7 @@
     "difficulty": 8,
     "time": "8 h",
     "book_learn": [ [ "textbook_weapwest", 8 ], [ "recipe_melee", 7 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -975,7 +975,7 @@
     "difficulty": 7,
     "time": "7 h",
     "book_learn": [ [ "textbook_armschina", 8 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -994,7 +994,7 @@
     "difficulty": 8,
     "time": "8 h",
     "book_learn": [ [ "textbook_armschina", 7 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -1014,7 +1014,7 @@
     "difficulty": 8,
     "time": "8 h",
     "book_learn": [ [ "textbook_armschina", 7 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -1034,7 +1034,7 @@
     "difficulty": 9,
     "time": "20 h",
     "book_learn": [ [ "textbook_armschina", 8 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -1055,7 +1055,7 @@
     "difficulty": 10,
     "time": "1 d",
     "book_learn": [ [ "textbook_armschina", 9 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -1076,7 +1076,7 @@
     "difficulty": 7,
     "time": "6 h",
     "book_learn": [ [ "textbook_armschina", 6 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -1095,7 +1095,7 @@
     "difficulty": 8,
     "time": "7 h",
     "book_learn": [ [ "textbook_armschina", 7 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -1115,7 +1115,7 @@
     "difficulty": 8,
     "time": "7 h",
     "book_learn": [ [ "textbook_armschina", 7 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -1135,7 +1135,7 @@
     "difficulty": 9,
     "time": "19 h",
     "book_learn": [ [ "textbook_armschina", 8 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -1156,7 +1156,7 @@
     "difficulty": 10,
     "time": "23 h",
     "book_learn": [ [ "textbook_armschina", 9 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -1177,7 +1177,7 @@
     "difficulty": 7,
     "time": "7 h 10 m",
     "book_learn": [ [ "textbook_weapwest", 6 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -1196,7 +1196,7 @@
     "difficulty": 8,
     "time": "8 h 10 m",
     "book_learn": [ [ "textbook_weapwest", 7 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -1216,7 +1216,7 @@
     "difficulty": 8,
     "time": "8 h 10 m",
     "book_learn": [ [ "textbook_weapwest", 7 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -1236,7 +1236,7 @@
     "difficulty": 9,
     "time": "20 h 10 m",
     "book_learn": [ [ "textbook_weapwest", 8 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -1257,7 +1257,7 @@
     "difficulty": 10,
     "time": "1 d 10 m",
     "book_learn": [ [ "textbook_weapwest", 9 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -1278,7 +1278,7 @@
     "difficulty": 7,
     "time": "6 h",
     "book_learn": [ [ "textbook_weapwest", 6 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -1297,7 +1297,7 @@
     "difficulty": 8,
     "time": "7 h",
     "book_learn": [ [ "textbook_weapwest", 7 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -1317,7 +1317,7 @@
     "difficulty": 8,
     "time": "7 h",
     "book_learn": [ [ "textbook_weapwest", 7 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -1337,7 +1337,7 @@
     "difficulty": 9,
     "time": "19 h",
     "book_learn": [ [ "textbook_weapwest", 8 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -1358,7 +1358,7 @@
     "difficulty": 10,
     "time": "23 h",
     "book_learn": [ [ "textbook_weapwest", 9 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -1379,7 +1379,7 @@
     "difficulty": 5,
     "time": "4 h",
     "book_learn": [ [ "textbook_weapwest", 4 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -1398,7 +1398,7 @@
     "difficulty": 6,
     "time": "5 h",
     "book_learn": [ [ "textbook_weapwest", 5 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -1418,7 +1418,7 @@
     "difficulty": 6,
     "time": "5 h",
     "book_learn": [ [ "textbook_weapwest", 5 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -1438,7 +1438,7 @@
     "difficulty": 7,
     "time": "17 h",
     "book_learn": [ [ "textbook_weapwest", 6 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -1459,7 +1459,7 @@
     "difficulty": 8,
     "time": "21 h",
     "book_learn": [ [ "textbook_weapwest", 7 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -1480,7 +1480,7 @@
     "difficulty": 7,
     "time": "6 h",
     "book_learn": [ [ "textbook_weapwest", 5 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -1499,7 +1499,7 @@
     "difficulty": 8,
     "time": "7 h",
     "book_learn": [ [ "textbook_weapwest", 6 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -1519,7 +1519,7 @@
     "difficulty": 8,
     "time": "7 h",
     "book_learn": [ [ "textbook_weapwest", 6 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -1539,7 +1539,7 @@
     "difficulty": 9,
     "time": "19 h",
     "book_learn": [ [ "textbook_weapwest", 7 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -1560,7 +1560,7 @@
     "difficulty": 10,
     "time": "23 h",
     "book_learn": [ [ "textbook_weapwest", 8 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -1581,7 +1581,7 @@
     "difficulty": 7,
     "time": "7 h",
     "book_learn": [ [ "textbook_weapwest", 7 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -1600,7 +1600,7 @@
     "difficulty": 8,
     "time": "8 h",
     "book_learn": [ [ "textbook_weapwest", 8 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -1620,7 +1620,7 @@
     "difficulty": 8,
     "time": "8 h",
     "book_learn": [ [ "textbook_weapwest", 8 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -1640,7 +1640,7 @@
     "difficulty": 9,
     "time": "20 h",
     "book_learn": [ [ "textbook_weapwest", 9 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -1661,7 +1661,7 @@
     "difficulty": 10,
     "time": "1 d",
     "book_learn": [ [ "textbook_weapwest", 10 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -1682,7 +1682,7 @@
     "difficulty": 7,
     "time": "6 h",
     "book_learn": [ [ "textbook_weapeast", 6 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -1701,7 +1701,7 @@
     "difficulty": 8,
     "time": "7 h",
     "book_learn": [ [ "textbook_weapeast", 7 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -1721,7 +1721,7 @@
     "difficulty": 8,
     "time": "7 h",
     "book_learn": [ [ "textbook_weapeast", 7 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -1741,7 +1741,7 @@
     "difficulty": 9,
     "time": "19 h",
     "book_learn": [ [ "textbook_weapeast", 8 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -1762,7 +1762,7 @@
     "difficulty": 10,
     "time": "23 h",
     "book_learn": [ [ "textbook_weapeast", 9 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -1783,7 +1783,7 @@
     "difficulty": 7,
     "time": "7 h",
     "book_learn": [ [ "textbook_weapeast", 7 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -1802,7 +1802,7 @@
     "difficulty": 8,
     "time": "8 h",
     "book_learn": [ [ "textbook_weapeast", 8 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -1822,7 +1822,7 @@
     "difficulty": 8,
     "time": "8 h",
     "book_learn": [ [ "textbook_weapeast", 8 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -1842,7 +1842,7 @@
     "difficulty": 9,
     "time": "20 h",
     "book_learn": [ [ "textbook_weapeast", 9 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -1863,7 +1863,7 @@
     "difficulty": 10,
     "time": "1 d",
     "book_learn": [ [ "textbook_weapeast", 10 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -1884,7 +1884,7 @@
     "difficulty": 7,
     "time": "8 h 40 m",
     "book_learn": [ [ "textbook_weapeast", 7 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -1903,7 +1903,7 @@
     "difficulty": 8,
     "time": "9 h 40 m",
     "book_learn": [ [ "textbook_weapeast", 8 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -1923,7 +1923,7 @@
     "difficulty": 8,
     "time": "9 h 40 m",
     "book_learn": [ [ "textbook_weapeast", 8 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -1943,7 +1943,7 @@
     "difficulty": 9,
     "time": "21 h 40 m",
     "book_learn": [ [ "textbook_weapeast", 9 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -1964,7 +1964,7 @@
     "difficulty": 10,
     "time": "1d 1 h 40 m",
     "book_learn": [ [ "textbook_weapeast", 10 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -1986,7 +1986,7 @@
     "time": "8 h",
     "book_learn": [ [ "textbook_weapeast", 9 ], [ "recipe_melee", 4 ] ],
     "using": [ [ "blacksmithing_standard", 3 ], [ "steel_tiny", 3 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -2005,7 +2005,7 @@
     "time": "8 h",
     "book_learn": [ [ "textbook_weapeast", 6 ] ],
     "using": [ [ "blacksmithing_standard", 3 ], [ "steel_tiny", 3 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" }
@@ -2038,7 +2038,7 @@
     "difficulty": 7,
     "time": "6 h",
     "book_learn": [ [ "textbook_weapwest", 6 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -2059,7 +2059,7 @@
     "difficulty": 7,
     "time": "7 h 40 m",
     "book_learn": [ [ "textbook_weapwest", 6 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -2080,7 +2080,7 @@
     "difficulty": 7,
     "time": "7 h 40 m",
     "book_learn": [ [ "textbook_weapeast", 6 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -2103,7 +2103,7 @@
     "time": "2 h",
     "book_learn": [ [ "textbook_weapeast", 6 ] ],
     "using": [ [ "blacksmithing_standard", 5 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -2125,7 +2125,7 @@
     "time": "25 m",
     "autolearn": true,
     "using": [ [ "soldering_standard", 20 ] ],
-    "proficiencies": [ { "proficiency": "prof_metalworking" } ],
+    "//proficiencies": [ { "proficiency": "prof_metalworking" } ],
     "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "SAW_M", "level": 1 }, { "id": "GRIND", "level": 2 } ],
     "components": [
       [ [ "machete", 1 ] ],
@@ -2149,7 +2149,7 @@
     "using": [ [ "soldering_standard", 20 ], [ "blacksmithing_standard", 10 ] ],
     "qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "SAW_M", "level": 1 }, { "id": "GRIND", "level": 2 } ],
     "tools": [ [ [ "swage", -1 ] ], [ [ "metal_tank", -1 ] ], [ [ "water", -80 ], [ "water_clean", -80 ] ] ],
-    "proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_quenching", "fail_multiplier": 2 } ],
+    "//proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_quenching", "fail_multiplier": 2 } ],
     "components": [
       [ [ "machete", 1 ] ],
       [ [ "duct_tape", 150 ] ],

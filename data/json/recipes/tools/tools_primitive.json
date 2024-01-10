@@ -36,7 +36,7 @@
       { "id": "PUNCH", "level": 1 },
       { "id": "CUT", "level": 1 }
     ],
-    "proficiencies": [ { "proficiency": "prof_knapping" }, { "proficiency": "prof_knapping_speed" } ],
+    "//proficiencies": [ { "proficiency": "prof_knapping" }, { "proficiency": "prof_knapping_speed" } ],
     "components": [
       [ [ "stick", 1 ], [ "2x4", 1 ] ],
       [ [ "rock_flaking_any", 1, "LIST" ] ],
@@ -54,7 +54,7 @@
     "time": "20 m",
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "proficiencies": [ { "proficiency": "prof_carving", "time_multiplier": 3, "fail_multiplier": 1 } ],
+    "//proficiencies": [ { "proficiency": "prof_carving", "time_multiplier": 3, "fail_multiplier": 1 } ],
     "components": [ [ [ "stick", 1 ], [ "2x4", 1 ] ] ]
   },
   {
@@ -73,7 +73,7 @@
       { "id": "CUT", "level": 2 },
       { "id": "CHISEL_WOOD", "level": 1 }
     ],
-    "proficiencies": [ { "proficiency": "prof_carving", "time_multiplier": 3, "fail_multiplier": 1 } ],
+    "//proficiencies": [ { "proficiency": "prof_carving", "time_multiplier": 3, "fail_multiplier": 1 } ],
     "components": [
       [ [ "stick", 1 ], [ "2x4", 1 ] ],
       [ [ "2x4", 1 ] ],
@@ -97,7 +97,7 @@
       { "id": "CUT", "level": 2 },
       { "id": "CHISEL_WOOD", "level": 1 }
     ],
-    "proficiencies": [ { "proficiency": "prof_carving", "time_multiplier": 3, "fail_multiplier": 1 } ],
+    "//proficiencies": [ { "proficiency": "prof_carving", "time_multiplier": 3, "fail_multiplier": 1 } ],
     "components": [
       [ [ "stick", 1 ], [ "2x4", 1 ] ],
       [ [ "log", 1 ] ],
@@ -118,7 +118,7 @@
     "book_learn": [ [ "mag_survival", 1 ], [ "atomic_survival", 1 ], [ "textbook_carpentry", 2 ] ],
     "qualities": [ { "id": "HAMMER", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
-    "proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_redsmithing" } ],
+    "//proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_redsmithing" } ],
     "components": [
       [ [ "stick", 1 ], [ "2x4", 1 ] ],
       [ [ "copper_scrap_equivalent", 50, "LIST" ] ],
@@ -135,7 +135,7 @@
     "difficulty": 5,
     "time": "4 h",
     "autolearn": true,
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_redsmithing" },
       { "proficiency": "prof_toolsmithing" }
@@ -160,7 +160,7 @@
     "difficulty": 4,
     "time": "1 h",
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_knapping" }, { "proficiency": "prof_knapping_speed" } ],
+    "//proficiencies": [ { "proficiency": "prof_knapping" }, { "proficiency": "prof_knapping_speed" } ],
     "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "HAMMER_SOFT", "level": 1 }, { "id": "CHISEL_WOOD", "level": 1 } ],
     "components": [ [ [ "stick", 1 ], [ "2x4", 1 ] ], [ [ "rock_flaking_any", 1, "LIST" ] ] ]
   },
@@ -203,7 +203,7 @@
       { "id": "PUNCH", "level": 1 },
       { "id": "CUT", "level": 2 }
     ],
-    "proficiencies": [ { "proficiency": "prof_knapping" }, { "proficiency": "prof_knapping_speed" } ],
+    "//proficiencies": [ { "proficiency": "prof_knapping" }, { "proficiency": "prof_knapping_speed" } ],
     "components": [ [ [ "stick", 1 ], [ "2x4", 1 ] ], [ [ "rock_flaking_any", 1, "LIST" ] ], [ [ "cordage_short", 2, "LIST" ] ] ]
   },
   {
@@ -218,7 +218,7 @@
     "time": "1 h",
     "autolearn": true,
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "CUT", "level": 2 } ],
-    "proficiencies": [ { "proficiency": "prof_knapping" }, { "proficiency": "prof_knapping_speed" } ],
+    "//proficiencies": [ { "proficiency": "prof_knapping" }, { "proficiency": "prof_knapping_speed" } ],
     "components": [
       [ [ "stick", 1 ], [ "2x4", 1 ] ],
       [ [ "rock", 1 ], [ "ceramic_shard", 1 ], [ "rock_flaking_any", 1, "LIST" ] ],
@@ -237,7 +237,7 @@
     "time": "3 h",
     "autolearn": true,
     "book_learn": [ [ "atomic_survival", 1 ], [ "textbook_survival", 1 ], [ "cookbook", 3 ] ],
-    "proficiencies": [ { "proficiency": "prof_knapping" }, { "proficiency": "prof_knapping_speed" } ],
+    "//proficiencies": [ { "proficiency": "prof_knapping" }, { "proficiency": "prof_knapping_speed" } ],
     "qualities": [
       { "id": "HAMMER", "level": 1 },
       { "id": "ANVIL", "level": 1 },
@@ -262,7 +262,7 @@
     "difficulty": 2,
     "time": "50 m",
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_pottery" } ],
+    "//proficiencies": [ { "proficiency": "prof_pottery" } ],
     "using": [ [ "earthenware_firing", 100 ] ],
     "components": [ [ [ "water", 1 ], [ "water_clean", 1 ] ], [ [ "clay_lump", 8 ] ] ]
   },
@@ -330,7 +330,7 @@
     "time": "5 m",
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 2 } ],
-    "proficiencies": [ { "proficiency": "prof_carving" } ],
+    "//proficiencies": [ { "proficiency": "prof_carving" } ],
     "components": [ [ [ "bone_sturdy", 1, "LIST" ] ] ]
   },
   {
@@ -345,7 +345,7 @@
     "//": "As of writing, a stick/plank is 130 cm, a splinter is 30 cm, this is intentionally 'generous' because this is rounded up and material tends to be uneven anyways",
     "byproducts": [ [ "splinter", 4 ] ],
     "qualities": [ { "id": "CUT", "level": 2 } ],
-    "proficiencies": [ { "proficiency": "prof_carving" } ],
+    "//proficiencies": [ { "proficiency": "prof_carving" } ],
     "components": [ [ [ "stick", 1 ], [ "2x4", 1 ] ] ]
   },
   {
@@ -371,7 +371,7 @@
     "time": "2 h",
     "autolearn": true,
     "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "ANVIL", "level": 1 } ],
-    "proficiencies": [ { "proficiency": "prof_knapping" }, { "proficiency": "prof_knapping_speed" } ],
+    "//proficiencies": [ { "proficiency": "prof_knapping" }, { "proficiency": "prof_knapping_speed" } ],
     "components": [
       [ [ "rock", 1 ] ],
       [ [ "water", 1 ], [ "water_clean", 1 ], [ "water_sewage", 1 ], [ "salt_water", 1 ], [ "saline", 5 ] ],
@@ -390,7 +390,7 @@
     "time": "20 m",
     "autolearn": true,
     "qualities": [ { "id": "HAMMER", "level": 1 } ],
-    "proficiencies": [ { "proficiency": "prof_knapping" }, { "proficiency": "prof_knapping_speed" } ],
+    "//proficiencies": [ { "proficiency": "prof_knapping" }, { "proficiency": "prof_knapping_speed" } ],
     "components": [ [ [ "rock_flaking_any", 1, "LIST" ] ] ]
   },
   {
@@ -405,7 +405,7 @@
     "time": "54 m",
     "autolearn": true,
     "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "HAMMER_SOFT", "level": 1 } ],
-    "proficiencies": [ { "proficiency": "prof_knapping" }, { "proficiency": "prof_knapping_speed" } ],
+    "//proficiencies": [ { "proficiency": "prof_knapping" }, { "proficiency": "prof_knapping_speed" } ],
     "components": [ [ [ "rock_flaking_any", 1, "LIST" ] ] ]
   },
   {

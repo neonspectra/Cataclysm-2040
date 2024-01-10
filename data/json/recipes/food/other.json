@@ -60,7 +60,7 @@
     "difficulty": 5,
     "skills_required": [ "survival", 6 ],
     "time": "2 m",
-    "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_fermenting" } ],
+    "//proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_fermenting" } ],
     "book_learn": [ [ "brewing_cookbook", 6 ] ],
     "components": [ [ [ "rice_cooked", 1 ] ], [ [ "ash", 1 ] ], [ [ "empty_corn_cob", 1 ] ] ]
   },
@@ -73,7 +73,7 @@
     "skill_used": "cooking",
     "difficulty": 5,
     "time": "4 h",
-    "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_fermenting" } ],
+    "//proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_fermenting" } ],
     "book_learn": [ [ "cookbook_sushi", 6 ] ],
     "qualities": [ { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 80, "LIST" ] ], [ [ "mortar_pestle", -1 ], [ "food_processor", 20 ] ] ],

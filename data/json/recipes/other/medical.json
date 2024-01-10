@@ -417,7 +417,7 @@
     "time": "5 m",
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 2 } ],
-    "proficiencies": [ { "proficiency": "prof_carving" }, { "proficiency": "prof_carpentry_basic" } ],
+    "//proficiencies": [ { "proficiency": "prof_carving" }, { "proficiency": "prof_carpentry_basic" } ],
     "components": [ [ [ "stick", 1 ], [ "2x4", 1 ], [ "pool_cue", 1 ] ] ]
   },
   {
@@ -430,7 +430,7 @@
     "time": "30 m",
     "autolearn": true,
     "qualities": [ { "id": "SAW_W", "level": 1 }, { "id": "CUT", "level": 2 } ],
-    "proficiencies": [ { "proficiency": "prof_carving" }, { "proficiency": "prof_carpentry_basic" } ],
+    "//proficiencies": [ { "proficiency": "prof_carving" }, { "proficiency": "prof_carpentry_basic" } ],
     "components": [
       [ [ "cotton_patchwork", 10 ], [ "medical_gauze", 4 ] ],
       [ [ "cordage", 2, "LIST" ], [ "duct_tape", 100 ], [ "medical_tape", 50 ] ],

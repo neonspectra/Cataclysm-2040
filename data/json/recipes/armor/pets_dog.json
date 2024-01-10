@@ -10,7 +10,7 @@
     "time": "3 h 30 m",
     "using": [ [ "cordage", 1 ], [ "clasps", 3 ] ],
     "components": [ [ [ "acidchitin_piece", 12 ] ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_leatherworking_basic" },
       { "proficiency": "prof_chitinworking" },
       { "proficiency": "prof_closures" }
@@ -29,7 +29,7 @@
     "using": [ [ "cordage", 1 ], [ "clasps", 3 ] ],
     "components": [ [ [ "chitin_piece", 12 ] ] ],
     "qualities": [ { "id": "CUT", "level": 2 } ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_leatherworking_basic" },
       { "proficiency": "prof_chitinworking" },
       { "proficiency": "prof_closures" }
@@ -51,7 +51,7 @@
       [ [ "lc_wire", 1 ] ],
       [ [ "fur", 8 ], [ "tanned_pelt", 1 ], [ "leather", 8 ], [ "tanned_hide", 1 ] ]
     ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_chain_armour" },
       { "proficiency": "prof_closures" },
       { "proficiency": "prof_leatherworking_basic", "time_multiplier": 2, "fail_multiplier": 1.2 }
@@ -69,7 +69,7 @@
     "byproducts": [ [ "leather", 3 ] ],
     "qualities": [ { "id": "CUT", "level": 2 } ],
     "components": [ [ [ "vest_leather", 1 ] ] ],
-    "proficiencies": [ { "proficiency": "prof_leatherworking_basic", "time_multiplier": 2, "fail_multiplier": 1.2 } ]
+    "//proficiencies": [ { "proficiency": "prof_leatherworking_basic", "time_multiplier": 2, "fail_multiplier": 1.2 } ]
   },
   {
     "result": "leather_harness_dog",
@@ -84,7 +84,7 @@
     "autolearn": true,
     "book_learn": [ [ "textbook_tailor", 3 ], [ "manual_tailor", 3 ] ],
     "using": [ [ "tailoring_leather_patchwork", 8 ], [ "clasps", 3 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_leatherworking_basic" },
       { "proficiency": "prof_closures" },
       { "proficiency": "prof_leatherworking" }
@@ -100,7 +100,7 @@
     "reversible": true,
     "using": [ [ "sewing_standard", 15 ], [ "clasps", 3 ] ],
     "components": [ [ [ "bone", 13 ], [ "bone_human", 13 ], [ "bone_demihuman", 13 ] ], [ [ "vest_leather", 1 ] ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_leatherworking_basic" },
       { "proficiency": "prof_closures" },
       { "proficiency": "prof_leatherworking" }
@@ -120,7 +120,7 @@
     "reversible": true,
     "using": [ [ "sewing_standard", 5 ], [ "clasps", 3 ] ],
     "components": [ [ [ "bone_sturdy", 13, "LIST" ] ], [ [ "leather_harness_dog", 1 ] ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_leatherworking_basic" },
       { "proficiency": "prof_closures" },
       { "proficiency": "prof_leatherworking" }
@@ -140,7 +140,7 @@
     "book_learn": [ [ "textbook_tailor", 3 ], [ "manual_tailor", 3 ] ],
     "using": [ [ "tailoring_leather_patchwork", 8 ], [ "clasps", 3 ] ],
     "components": [ [ [ "bone_sturdy", 13, "LIST" ] ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_leatherworking_basic" },
       { "proficiency": "prof_closures" },
       { "proficiency": "prof_leatherworking" }
@@ -160,7 +160,7 @@
     "using": [ [ "clasps", 3 ] ],
     "qualities": [ { "id": "SEW", "level": 1 }, { "id": "CUT", "level": 2 } ],
     "components": [ [ [ "duct_tape", 25 ] ], [ [ "coat_rain", 1 ] ] ],
-    "proficiencies": [ { "proficiency": "prof_closures" } ]
+    "//proficiencies": [ { "proficiency": "prof_closures" } ]
   },
   {
     "result": "rubber_harness_dog",
@@ -177,6 +177,6 @@
     "using": [ [ "clasps", 3 ], [ "waterproofing_plastic_sheets", 10 ] ],
     "qualities": [ { "id": "SEW", "level": 1 }, { "id": "CUT", "level": 2 } ],
     "components": [ [ [ "cotton_patchwork", 10 ] ] ],
-    "proficiencies": [ { "proficiency": "prof_closures" } ]
+    "//proficiencies": [ { "proficiency": "prof_closures" } ]
   }
 ]

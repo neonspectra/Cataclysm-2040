@@ -135,7 +135,7 @@
     "book_learn": [ [ "textbook_mechanics", 4 ] ],
     "reversible": true,
     "using": [ [ "welding_standard", 5 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_welding_basic", "fail_multiplier": 1.5 },
       { "proficiency": "prof_welding" }
@@ -155,7 +155,7 @@
     "book_learn": [ [ "textbook_mechanics", 4 ] ],
     "reversible": true,
     "using": [ [ "welding_standard", 5 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_welding_basic", "fail_multiplier": 1.5 },
       { "proficiency": "prof_welding" }
@@ -175,7 +175,7 @@
     "book_learn": [ [ "textbook_mechanics", 4 ] ],
     "reversible": true,
     "using": [ [ "welding_standard", 5 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_welding_basic", "fail_multiplier": 1.5 },
       { "proficiency": "prof_welding" }
@@ -195,7 +195,7 @@
     "book_learn": [ [ "textbook_mechanics", 4 ] ],
     "reversible": true,
     "using": [ [ "welding_standard", 5 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_welding_basic", "fail_multiplier": 1.5 },
       { "proficiency": "prof_welding" }

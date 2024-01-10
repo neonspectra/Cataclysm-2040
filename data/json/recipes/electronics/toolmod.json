@@ -20,7 +20,7 @@
     ],
     "using": [ [ "soldering_standard", 24 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_circuits" },
       { "proficiency": "prof_elec_semiconductors" }
@@ -42,7 +42,7 @@
     "book_learn": [ [ "exodii_wiring_kit_reference", 4 ] ],
     "using": [ [ "soldering_standard", 24 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_circuits" },
       { "proficiency": "prof_elec_semiconductors" }
@@ -64,7 +64,7 @@
     "book_learn": [ [ "manual_electronics", 3 ], [ "advanced_electronics", 3 ] ],
     "using": [ [ "soldering_standard", 5 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
-    "proficiencies": [ { "proficiency": "prof_elec_soldering" }, { "proficiency": "prof_elec_circuits" } ],
+    "//proficiencies": [ { "proficiency": "prof_elec_soldering" }, { "proficiency": "prof_elec_circuits" } ],
     "components": [ [ [ "power_supply", 1 ] ], [ [ "scrap", 4 ] ], [ [ "cable", 10 ] ] ]
   },
   {
@@ -83,7 +83,7 @@
     "book_learn": [ [ "manual_electronics", 2 ], [ "advanced_electronics", 2 ] ],
     "using": [ [ "soldering_standard", 5 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
-    "proficiencies": [ { "proficiency": "prof_elec_soldering" }, { "proficiency": "prof_elec_circuits" } ],
+    "//proficiencies": [ { "proficiency": "prof_elec_soldering" }, { "proficiency": "prof_elec_circuits" } ],
     "components": [ [ [ "scrap", 4 ] ], [ [ "cable", 5 ] ] ]
   },
   {
@@ -102,7 +102,7 @@
     "book_learn": [ [ "manual_electronics", 2 ], [ "advanced_electronics", 2 ] ],
     "using": [ [ "soldering_standard", 10 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
-    "proficiencies": [ { "proficiency": "prof_elec_soldering" }, { "proficiency": "prof_elec_circuits" } ],
+    "//proficiencies": [ { "proficiency": "prof_elec_soldering" }, { "proficiency": "prof_elec_circuits" } ],
     "components": [ [ [ "scrap", 6 ] ], [ [ "cable", 8 ] ] ]
   },
   {
@@ -121,7 +121,7 @@
     "book_learn": [ [ "manual_electronics", 2 ], [ "advanced_electronics", 2 ] ],
     "using": [ [ "soldering_standard", 15 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
-    "proficiencies": [ { "proficiency": "prof_elec_soldering" }, { "proficiency": "prof_elec_circuits" } ],
+    "//proficiencies": [ { "proficiency": "prof_elec_soldering" }, { "proficiency": "prof_elec_circuits" } ],
     "components": [ [ [ "scrap", 8 ] ], [ [ "cable", 10 ] ] ]
   },
   {
@@ -139,7 +139,7 @@
     "book_learn": [ [ "manual_electronics", 2 ], [ "mag_electronics", 2 ] ],
     "using": [ [ "soldering_standard", 10 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
-    "proficiencies": [ { "proficiency": "prof_elec_soldering" }, { "proficiency": "prof_elec_circuits" } ],
+    "//proficiencies": [ { "proficiency": "prof_elec_soldering" }, { "proficiency": "prof_elec_circuits" } ],
     "components": [ [ [ "light_battery_cell", 5 ] ], [ [ "scrap", 4 ] ], [ [ "cable", 5 ] ] ]
   },
   {
@@ -157,7 +157,7 @@
     "book_learn": [ [ "manual_electronics", 2 ], [ "mag_electronics", 2 ] ],
     "using": [ [ "soldering_standard", 10 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
-    "proficiencies": [ { "proficiency": "prof_elec_soldering" }, { "proficiency": "prof_elec_circuits" } ],
+    "//proficiencies": [ { "proficiency": "prof_elec_soldering" }, { "proficiency": "prof_elec_circuits" } ],
     "components": [ [ [ "medium_battery_cell", 2 ] ], [ [ "scrap", 4 ] ], [ [ "cable", 5 ] ] ]
   },
   {
@@ -175,7 +175,7 @@
     "book_learn": [ [ "manual_electronics", 2 ], [ "mag_electronics", 2 ] ],
     "using": [ [ "soldering_standard", 10 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
-    "proficiencies": [ { "proficiency": "prof_elec_soldering" }, { "proficiency": "prof_elec_circuits" } ],
+    "//proficiencies": [ { "proficiency": "prof_elec_soldering" }, { "proficiency": "prof_elec_circuits" } ],
     "components": [ [ [ "light_plus_battery_cell", 5 ] ], [ [ "scrap", 4 ] ], [ [ "cable", 5 ] ] ]
   },
   {
@@ -193,7 +193,7 @@
     "book_learn": [ [ "manual_electronics", 2 ], [ "mag_electronics", 2 ] ],
     "using": [ [ "soldering_standard", 10 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
-    "proficiencies": [ { "proficiency": "prof_elec_soldering" }, { "proficiency": "prof_elec_circuits" } ],
+    "//proficiencies": [ { "proficiency": "prof_elec_soldering" }, { "proficiency": "prof_elec_circuits" } ],
     "components": [ [ [ "medium_plus_battery_cell", 2 ] ], [ [ "scrap", 4 ] ], [ [ "cable", 5 ] ] ]
   }
 ]

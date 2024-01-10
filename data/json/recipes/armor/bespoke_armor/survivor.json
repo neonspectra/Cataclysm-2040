@@ -11,7 +11,7 @@
     "autolearn": true,
     "using": [ [ "sewing_kevlar", 200 ], [ "fabric_lycra", 20 ], [ "fabric_fauxfur", 20 ], [ "fastener_large", 1 ], [ "clasps", 8 ] ],
     "qualities": [ { "id": "LEATHER_AWL", "level": 1 } ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_closures" },
       { "proficiency": "prof_closures_waterproofing" },
       { "proficiency": "prof_polymerworking" },
@@ -50,7 +50,7 @@
     "time": "12 h",
     "autolearn": true,
     "using": [ [ "tailoring_kevlar_fabric", 200 ], [ "tailoring_neoprene_patchwork", 30 ], [ "fastener_large", 1 ], [ "clasps", 8 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_closures" },
       { "proficiency": "prof_closures_waterproofing" },
       { "proficiency": "prof_polymerworking" },
@@ -92,7 +92,7 @@
       [ "fastener_large", 2 ],
       [ "clasps", 12 ]
     ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_closures" },
       { "proficiency": "prof_closures_waterproofing" },
       { "proficiency": "prof_polymerworking" },
@@ -139,7 +139,7 @@
     "time": "6 h",
     "autolearn": true,
     "using": [ [ "sewing_kevlar", 100 ], [ "fabric_lycra", 20 ], [ "fabric_nylon", 30 ], [ "fastener_large", 1 ], [ "clasps", 8 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_closures" },
       { "proficiency": "prof_closures_waterproofing" },
       { "proficiency": "prof_polymerworking" },
@@ -175,7 +175,7 @@
     "time": "7 h",
     "autolearn": true,
     "using": [ [ "sewing_kevlar", 150 ], [ "fabric_lycra", 20 ], [ "fabric_nylon", 30 ], [ "fastener_large", 1 ], [ "clasps", 8 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_closures" },
       { "proficiency": "prof_closures_waterproofing" },
       { "proficiency": "prof_polymerworking" },
@@ -213,7 +213,7 @@
     "autolearn": true,
     "using": [ [ "sewing_kevlar", 200 ], [ "fabric_lycra", 20 ], [ "fabric_fur_pelt", 3 ], [ "fastener_large", 1 ], [ "clasps", 8 ] ],
     "qualities": [ { "id": "LEATHER_AWL", "level": 1 } ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_furriery" },
       { "proficiency": "prof_closures" },
       { "proficiency": "prof_closures_waterproofing" },
@@ -253,7 +253,7 @@
     "time": "5 h",
     "autolearn": true,
     "using": [ [ "sewing_standard", 100 ], [ "fastener_large", 1 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_closures" },
       { "proficiency": "prof_closures_waterproofing" },
       { "proficiency": "prof_polymerworking" }
@@ -278,7 +278,7 @@
     "autolearn": true,
     "book_learn": [ [ "tailor_portfolio", 7 ], [ "textbook_fireman", 7 ] ],
     "using": [ [ "sewing_kevlar", 200 ], [ "fabric_nomex", 30 ], [ "fastener_large", 1 ], [ "clasps", 8 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_closures" },
       { "proficiency": "prof_closures_waterproofing" },
       { "proficiency": "prof_polymerworking" }
@@ -314,7 +314,7 @@
     "using": [ [ "sewing_standard", 100 ] ],
     "qualities": [ { "id": "LEATHER_AWL", "level": 1 } ],
     "byproducts": [ [ "leather", 2 ], [ "scrap_leather", 28 ] ],
-    "proficiencies": [ { "proficiency": "prof_closures" }, { "proficiency": "prof_leatherworking_basic" } ],
+    "//proficiencies": [ { "proficiency": "prof_closures" }, { "proficiency": "prof_leatherworking_basic" } ],
     "components": [
       [ [ "trenchcoat_leather", 1 ], [ "duster_leather", 1 ], [ "jacket_leather", 1 ], [ "leather_police_jacket", 1 ] ],
       [ [ "sweatshirt", 1 ], [ "hoodie", 1 ] ],
@@ -334,7 +334,7 @@
     "using": [ [ "sewing_standard", 60 ] ],
     "qualities": [ { "id": "LEATHER_AWL", "level": 1 } ],
     "byproducts": [ [ "leather", 6 ], [ "scrap_leather", 22 ], [ "cotton_patchwork", 4 ] ],
-    "proficiencies": [ { "proficiency": "prof_closures" }, { "proficiency": "prof_leatherworking_basic" } ],
+    "//proficiencies": [ { "proficiency": "prof_closures" }, { "proficiency": "prof_leatherworking_basic" } ],
     "components": [
       [
         [ "trenchcoat_leather", 1 ],
@@ -362,7 +362,7 @@
     "using": [ [ "sewing_standard", 40 ] ],
     "qualities": [ { "id": "LEATHER_AWL", "level": 1 } ],
     "byproducts": [ [ "leather", 15 ], [ "scrap_leather", 18 ], [ "cotton_patchwork", 12 ] ],
-    "proficiencies": [ { "proficiency": "prof_closures" }, { "proficiency": "prof_leatherworking_basic" } ],
+    "//proficiencies": [ { "proficiency": "prof_closures" }, { "proficiency": "prof_leatherworking_basic" } ],
     "components": [
       [ [ "trenchcoat_leather", 1 ], [ "duster_leather", 1 ], [ "jacket_leather", 1 ], [ "leather_police_jacket", 1 ] ],
       [ [ "sweatshirt", 1 ], [ "hoodie", 1 ] ],
@@ -396,7 +396,7 @@
     "using": [ [ "sewing_standard", 80 ] ],
     "qualities": [ { "id": "LEATHER_AWL", "level": 1 } ],
     "byproducts": [ [ "leather", 4 ], [ "scrap_leather", 14 ] ],
-    "proficiencies": [ { "proficiency": "prof_closures" }, { "proficiency": "prof_leatherworking_basic" } ],
+    "//proficiencies": [ { "proficiency": "prof_closures" }, { "proficiency": "prof_leatherworking_basic" } ],
     "components": [ [ [ "pants_leather", 1 ] ], [ [ "technician_pants_gray", 1 ] ], [ [ "duct_tape", 120 ] ] ]
   }
 ]
