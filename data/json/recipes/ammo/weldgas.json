@@ -76,7 +76,7 @@
       [ [ "forge", 30 ] ],
       [ [ "rock_quern", -1 ], [ "clay_quern", -1 ], [ "mortar_pestle", -1 ], [ "food_processor", 10 ] ]
     ],
-    "proficiencies": [ { "proficiency": "prof_metalworking" } ],
+    "//proficiencies": [ { "proficiency": "prof_metalworking" } ],
     "components": [
       [ [ "scrap", 1 ] ],
       [ [ "flour_any", 1, "LIST" ], [ "paper", 3 ] ],
@@ -116,7 +116,7 @@
       [ [ "forge", 350 ] ],
       [ [ "rock_quern", -1 ], [ "clay_quern", -1 ], [ "mortar_pestle", -1 ], [ "food_processor", 25 ] ]
     ],
-    "proficiencies": [ { "proficiency": "prof_metalworking" } ],
+    "//proficiencies": [ { "proficiency": "prof_metalworking" } ],
     "components": [
       [ [ "material_aluminium_ingot", 1 ], [ "scrap_aluminum", 15 ] ],
       [ [ "chem_sulphuric_acid", 1 ], [ "chem_aluminium_sulphate", 6 ], [ "chem_sulphur", 50 ] ],
@@ -144,7 +144,7 @@
       [ [ "electrolysis_kit", 100 ] ],
       [ [ "jar_glass_sealed", -1 ], [ "jar_3l_glass_sealed", -1 ] ]
     ],
-    "proficiencies": [ { "proficiency": "prof_metalworking" } ],
+    "//proficiencies": [ { "proficiency": "prof_metalworking" } ],
     "components": [
       [ [ "wire", 4 ] ],
       [ [ "copper", 1 ] ],
@@ -169,7 +169,7 @@
       [ [ "forge", 250 ], [ "oxy_torch", 50 ] ],
       [ [ "wire_draw_machine", 120 ] ]
     ],
-    "proficiencies": [ { "proficiency": "prof_metalworking" } ],
+    "//proficiencies": [ { "proficiency": "prof_metalworking" } ],
     "components": [ [ [ "material_aluminium_ingot", 1 ], [ "scrap_aluminum", 11 ] ] ]
   },
   {
@@ -190,7 +190,7 @@
       [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ],
       [ [ "forge", 50 ] ]
     ],
-    "proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_redsmithing" } ],
+    "//proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_redsmithing" } ],
     "components": [ [ [ "scrap_bronze", 1 ] ], [ [ "detergent", 7 ] ] ]
   },
   {
@@ -210,7 +210,7 @@
       [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ],
       [ [ "forge", 200 ] ]
     ],
-    "proficiencies": [ { "proficiency": "prof_metalworking" } ],
+    "//proficiencies": [ { "proficiency": "prof_metalworking" } ],
     "components": [ [ [ "material_aluminium_ingot", 1 ], [ "scrap_aluminum", 13 ] ] ]
   }
 ]

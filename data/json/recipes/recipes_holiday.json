@@ -11,7 +11,7 @@
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 2 } ],
     "book_learn": [ [ "plastics_book", 1 ] ],
-    "proficiencies": [ { "proficiency": "prof_plasticworking" } ],
+    "//proficiencies": [ { "proficiency": "prof_plasticworking" } ],
     "tools": [ [ [ "surface_heat", 5, "LIST" ] ] ],
     "using": [ [ "plastic_molding", 2 ] ],
     "components": [

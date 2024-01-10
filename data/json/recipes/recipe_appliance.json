@@ -7,7 +7,7 @@
     "subcategory": "CSC_APPLIANCE_UTILITY",
     "copy-from": "minifridge",
     "skills_required": [ "fabrication", 4 ],
-    "proficiencies": [ { "proficiency": "prof_plasticworking", "required": false, "time_multiplier": 1.1, "learning_time_multiplier": 0.1 } ],
+    "//proficiencies": [ { "proficiency": "prof_plasticworking", "required": false, "time_multiplier": 1.1, "learning_time_multiplier": 0.1 } ],
     "qualities": [
       { "id": "HAMMER", "level": 2 },
       { "id": "SAW_M", "level": 1 },
@@ -88,7 +88,7 @@
     "skills_required": [ [ "electronics", 2 ] ],
     "using": [ [ "soldering_standard", 5 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
-    "proficiencies": [ { "proficiency": "prof_elec_soldering" } ],
+    "//proficiencies": [ { "proficiency": "prof_elec_soldering" } ],
     "components": [ [ [ "frame", 1 ] ], [ [ "recharge_station", 1 ] ] ]
   },
   {
@@ -105,7 +105,7 @@
     "skills_required": [ [ "electronics", 1 ] ],
     "using": [ [ "soldering_standard", 5 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
-    "proficiencies": [ { "proficiency": "prof_elec_soldering" } ],
+    "//proficiencies": [ { "proficiency": "prof_elec_soldering" } ],
     "components": [ [ [ "frame_wood", 1 ] ], [ [ "battery_charger", 1 ] ] ]
   }
 ]

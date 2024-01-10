@@ -24,7 +24,7 @@
       { "id": "CUT_FINE", "level": 1 },
       { "id": "FILE", "level": 1 }
     ],
-    "proficiencies": [ { "proficiency": "prof_carving", "time_multiplier": 1.5 } ],
+    "//proficiencies": [ { "proficiency": "prof_carving", "time_multiplier": 1.5 } ],
     "components": [ [ [ "stick", 1 ] ], [ [ "nail", 2 ] ] ]
   }
 ]

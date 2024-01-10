@@ -26,7 +26,7 @@
     "decomp_learn": 2,
     "autolearn": [ [ "mechanics", 3 ], [ "electronics", 2 ] ],
     "book_learn": [ [ "manual_mechanics", 3 ], [ "textbook_mechanics", 2 ], [ "welding_book", 1 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_welding_basic" },
       {
         "proficiency": "prof_welding",
@@ -54,7 +54,7 @@
     "difficulty": 3,
     "time": "3 h",
     "autolearn": true,
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
@@ -89,7 +89,7 @@
     "reversible": true,
     "autolearn": true,
     "using": [ [ "soldering_standard", 20 ] ],
-    "proficiencies": [ { "proficiency": "prof_elec_soldering" }, { "proficiency": "prof_elec_circuits" } ],
+    "//proficiencies": [ { "proficiency": "prof_elec_soldering" }, { "proficiency": "prof_elec_circuits" } ],
     "qualities": [ { "id": "SCREW", "level": 1, "amount": 1 }, { "id": "HAMMER", "level": 3, "amount": 1 } ],
     "components": [
       [ [ "scrap", 4 ] ],
@@ -112,7 +112,7 @@
     "autolearn": true,
     "book_learn": [ [ "radio_book", 1 ], [ "textbook_anarch", 2 ] ],
     "using": [ [ "soldering_standard", 5 ] ],
-    "proficiencies": [ { "proficiency": "prof_elec_soldering" } ],
+    "//proficiencies": [ { "proficiency": "prof_elec_soldering" } ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
     "components": [
       [
@@ -139,7 +139,7 @@
     "reversible": true,
     "book_learn": [ [ "textbook_anarch", 2 ] ],
     "using": [ [ "soldering_standard", 10 ] ],
-    "proficiencies": [ { "proficiency": "prof_elec_soldering" }, { "proficiency": "prof_elec_semiconductors" } ],
+    "//proficiencies": [ { "proficiency": "prof_elec_soldering" }, { "proficiency": "prof_elec_semiconductors" } ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
     "components": [ [ [ "amplifier", 2 ] ], [ [ "antenna", 1 ] ], [ [ "scrap_aluminum", 5 ] ], [ [ "cable", 7 ] ] ]
   },
@@ -155,7 +155,7 @@
     "reversible": true,
     "book_learn": [ [ "radio_book", 2 ], [ "textbook_anarch", 3 ] ],
     "using": [ [ "soldering_standard", 10 ] ],
-    "proficiencies": [ { "proficiency": "prof_elec_soldering" }, { "proficiency": "prof_elec_semiconductors" } ],
+    "//proficiencies": [ { "proficiency": "prof_elec_soldering" }, { "proficiency": "prof_elec_semiconductors" } ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
     "components": [ [ [ "receiver", 1 ] ], [ [ "antenna", 1 ] ], [ [ "scrap_aluminum", 5 ] ], [ [ "cable", 7 ] ] ]
   },
@@ -193,7 +193,7 @@
     "reversible": true,
     "decomp_learn": 4,
     "using": [ [ "soldering_standard", 14 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_circuits" },
       { "proficiency": "prof_elec_semiconductors" }
@@ -223,7 +223,7 @@
     "book_learn": [ [ "textbook_electronics", 7 ], [ "textbook_robots", 6 ] ],
     "using": [ [ "soldering_standard", 10 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_plasticworking", "time_multiplier": 1.5 },
       { "proficiency": "prof_elec_circuits" },
       { "proficiency": "prof_elec_soldering" },
@@ -253,7 +253,7 @@
     "decomp_learn": 4,
     "book_learn": [ [ "textbook_anarch", 3 ], [ "advanced_electronics", 5 ] ],
     "using": [ [ "soldering_standard", 10 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_circuits" },
       { "proficiency": "prof_elec_integrated_circuits" }
@@ -275,7 +275,7 @@
     "decomp_learn": 3,
     "book_learn": [ [ "advanced_electronics", 2 ], [ "textbook_electronics", 3 ], [ "textbook_anarch", 3 ] ],
     "using": [ [ "soldering_standard", 10 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_circuits" },
       { "proficiency": "prof_elec_semiconductors" }
@@ -295,7 +295,7 @@
     "time": "1 h",
     "decomp_learn": 4,
     "book_learn": [ [ "advanced_electronics", 3 ], [ "textbook_electronics", 3 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_plasticworking", "required": false, "time_multiplier": 1.5 },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_circuits" }
@@ -323,7 +323,7 @@
     "time": "1 h",
     "decomp_learn": 4,
     "book_learn": [ [ "advanced_electronics", 3 ], [ "textbook_electronics", 3 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_plasticworking", "time_multiplier": 1.5 },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_circuits" }
@@ -351,7 +351,7 @@
     "time": "1 h",
     "decomp_learn": 5,
     "book_learn": [ [ "advanced_electronics", 4 ], [ "textbook_electronics", 4 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_plasticworking", "time_multiplier": 1.5 },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_circuits" }
@@ -379,7 +379,7 @@
     "difficulty": 5,
     "time": "1 h",
     "book_learn": [ [ "advanced_electronics", 4 ], [ "textbook_electronics", 4 ], [ "textbook_carpentry", 5 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_plasticworking", "required": false, "time_multiplier": 1.5 },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_circuits" }
@@ -409,7 +409,7 @@
     "autolearn": [ [ "electronics", 2 ] ],
     "book_learn": [ [ "manual_electronics", 1 ], [ "advanced_electronics", 2 ], [ "textbook_anarch", 2 ] ],
     "qualities": [ { "id": "CUT", "level": 2 }, { "id": "SCREW", "level": 1 } ],
-    "proficiencies": [ { "proficiency": "prof_elec_soldering", "fail_multiplier": 1.125 }, { "proficiency": "prof_elec_circuits" } ],
+    "//proficiencies": [ { "proficiency": "prof_elec_soldering", "fail_multiplier": 1.125 }, { "proficiency": "prof_elec_circuits" } ],
     "components": [
       [ [ "e_scrap", 2 ], [ "glowplug", 1 ] ],
       [ [ "copper", 1 ], [ "nail", 1 ], [ "wire", 1 ] ],
@@ -431,7 +431,7 @@
     "decomp_learn": 2,
     "book_learn": [ [ "advanced_electronics", 1 ], [ "mag_electronics", 3 ], [ "manual_electronics", 2 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_plasticworking", "time_multiplier": 1.5 },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_circuits" }
@@ -466,7 +466,7 @@
     "book_learn": [ [ "textbook_survival", 3 ], [ "advanced_electronics", 3 ], [ "manual_electronics", 3 ] ],
     "using": [ [ "soldering_standard", 10 ], [ "blacksmithing_standard", 10 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_plasticworking", "time_multiplier": 1.5 },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_circuits" }
@@ -492,7 +492,7 @@
     "decomp_learn": 2,
     "book_learn": [ [ "advanced_electronics", 1 ], [ "mag_electronics", 3 ], [ "manual_electronics", 2 ] ],
     "using": [ [ "soldering_standard", 10 ] ],
-    "proficiencies": [ { "proficiency": "prof_elec_soldering" }, { "proficiency": "prof_elec_circuits" } ],
+    "//proficiencies": [ { "proficiency": "prof_elec_soldering" }, { "proficiency": "prof_elec_circuits" } ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
     "components": [
       [ [ "element", 4 ], [ "crude_heating_element", 4 ] ],
@@ -524,7 +524,7 @@
     "decomp_learn": 5,
     "book_learn": [ [ "advanced_electronics", 4 ], [ "textbook_electronics", 4 ], [ "atomic_survival", 3 ] ],
     "using": [ [ "soldering_standard", 14 ] ],
-    "proficiencies": [ { "proficiency": "prof_elec_soldering" }, { "proficiency": "prof_elec_semiconductors" } ],
+    "//proficiencies": [ { "proficiency": "prof_elec_soldering" }, { "proficiency": "prof_elec_semiconductors" } ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
     "components": [ [ [ "power_supply", 1 ] ], [ [ "amplifier", 2 ] ], [ [ "scrap_aluminum", 6 ] ], [ [ "cable", 10 ] ] ]
   },
@@ -540,7 +540,7 @@
     "reversible": true,
     "decomp_learn": 7,
     "book_learn": [ [ "advanced_electronics", 6 ], [ "textbook_electronics", 6 ], [ "atomic_survival", 5 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_plasticworking", "time_multiplier": 1.5 },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_semiconductors" }
@@ -561,7 +561,7 @@
     "reversible": true,
     "book_learn": [ [ "recipe_caseless", 8 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
-    "proficiencies": [ { "proficiency": "prof_plasticworking" }, { "proficiency": "prof_elec_semiconductors" } ],
+    "//proficiencies": [ { "proficiency": "prof_plasticworking" }, { "proficiency": "prof_elec_semiconductors" } ],
     "components": [
       [ [ "plastic_chunk", 5 ] ],
       [ [ "superglue", 1 ] ],
@@ -587,7 +587,7 @@
     "decomp_learn": 4,
     "autolearn": true,
     "book_learn": [ [ "textbook_electronics", 3 ], [ "advanced_electronics", 3 ], [ "textbook_chemistry", 5 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_plasticworking" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_circuits" }
@@ -616,7 +616,7 @@
     "autolearn": true,
     "using": [ [ "soldering_standard", 5 ], [ "plastic_molding", 2 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_plasticworking" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_circuits" }
@@ -641,7 +641,7 @@
       [ "textbook_electronics", 5 ]
     ],
     "using": [ [ "welding_standard", 10 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_welding_basic" },
       { "proficiency": "prof_welding" },
       { "proficiency": "prof_elec_soldering" },
@@ -692,7 +692,7 @@
     "book_learn": [ [ "advanced_electronics", 4 ], [ "mag_electronics", 6 ], [ "manual_electronics", 5 ] ],
     "using": [ [ "soldering_standard", 10 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_plasticworking" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_circuits" }
@@ -721,7 +721,7 @@
     "book_learn": [ [ "theater_props", 3 ], [ "manual_mechanics", 5 ], [ "manual_electronics", 5 ] ],
     "using": [ [ "soldering_standard", 10 ] ],
     "qualities": [ { "id": "VISE", "level": 1 }, { "id": "SCREW", "level": 1 }, { "id": "SAW_W", "level": 1 } ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_plasticworking" },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_carpentry_basic" }
@@ -754,7 +754,7 @@
     ],
     "using": [ [ "soldering_standard", 10 ], [ "surface_heat", 10 ], [ "plastic_molding", 2 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_plasticworking", "time_multiplier": 1.5 },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_circuits" }
@@ -773,7 +773,7 @@
     "reversible": true,
     "autolearn": true,
     "using": [ [ "soldering_standard", 20 ] ],
-    "proficiencies": [ { "proficiency": "prof_elec_soldering" }, { "proficiency": "prof_elec_circuits" } ],
+    "//proficiencies": [ { "proficiency": "prof_elec_soldering" }, { "proficiency": "prof_elec_circuits" } ],
     "qualities": [ { "id": "SCREW", "level": 1, "amount": 1 }, { "id": "HAMMER", "level": 3, "amount": 1 } ],
     "components": [
       [ [ "plastic_chunk", 10 ] ],
@@ -814,7 +814,7 @@
     "book_learn": [ [ "textbook_electronics", 7 ], [ "textbook_robots", 6 ] ],
     "using": [ [ "soldering_standard", 10 ], [ "surface_heat", 20 ], [ "plastic_molding", 3 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 }, { "id": "SAW_M", "level": 1 }, { "id": "CUT", "level": 2 } ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_plasticworking", "time_multiplier": 1.5 },
       { "proficiency": "prof_elec_soldering" },
       { "proficiency": "prof_elec_semiconductors" }
@@ -845,7 +845,7 @@
     "skills_required": [ [ "chemistry", 5 ], [ "electronics", 2 ] ],
     "time": "3 h",
     "book_learn": [ [ "adv_chemistry", 5 ], [ "textbook_chemistry", 6 ], [ "recipe_labchem", 5 ], [ "atomic_survival", 5 ] ],
-    "proficiencies": [ { "proficiency": "prof_glassblowing" }, { "proficiency": "prof_plasticworking" } ],
+    "//proficiencies": [ { "proficiency": "prof_glassblowing" }, { "proficiency": "prof_plasticworking" } ],
     "using": [ [ "plastic_molding", 2 ], [ "soldering_standard", 5 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 } ],
     "tools": [ [ [ "tongs", -1 ] ], [ [ "pipe", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 150 ] ] ],
@@ -864,7 +864,7 @@
     "autolearn": true,
     "using": [ [ "welding_standard", 10 ] ],
     "qualities": [ { "id": "SAW_M", "level": 1 } ],
-    "proficiencies": [ { "proficiency": "prof_welding_basic" } ],
+    "//proficiencies": [ { "proficiency": "prof_welding_basic" } ],
     "components": [
       [ [ "motor_small", 1 ] ],
       [ [ "jerrycan", 1 ] ],

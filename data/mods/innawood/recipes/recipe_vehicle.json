@@ -11,7 +11,7 @@
     "reversible": true,
     "autolearn": true,
     "using": [ [ "welding_standard", 20 ] ],
-    "proficiencies": [ { "proficiency": "prof_basic_engines" }, { "proficiency": "prof_welding_basic" } ],
+    "//proficiencies": [ { "proficiency": "prof_basic_engines" }, { "proficiency": "prof_welding_basic" } ],
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
     "components": [
       [ [ "pipe", 16 ] ],
@@ -42,7 +42,7 @@
     "decomp_learn": 2,
     "book_learn": [ [ "manual_electronics", 2 ], [ "mag_electronics", 2 ], [ "manual_mechanics", 2 ] ],
     "using": [ [ "soldering_standard", 4 ], [ "steel_tiny", 1 ] ],
-    "proficiencies": [ { "proficiency": "prof_elec_soldering" } ],
+    "//proficiencies": [ { "proficiency": "prof_elec_soldering" } ],
     "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
     "components": [ [ [ "cable", 4 ] ], [ [ "makeshift_transformer", 1 ] ] ]
   },
@@ -61,7 +61,7 @@
     "decomp_learn": 2,
     "book_learn": [ [ "manual_electronics", 2 ], [ "mag_electronics", 2 ], [ "manual_mechanics", 2 ] ],
     "using": [ [ "soldering_standard", 4 ], [ "steel_tiny", 1 ] ],
-    "proficiencies": [ { "proficiency": "prof_elec_soldering" } ],
+    "//proficiencies": [ { "proficiency": "prof_elec_soldering" } ],
     "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
     "components": [ [ [ "cable", 30 ] ], [ [ "makeshift_transformer", 4 ] ] ]
   }

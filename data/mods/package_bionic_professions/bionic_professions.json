@@ -246,7 +246,7 @@
     "description": "When bionics first emerged, you were quick to make them into your career, and spent your days overseeing their installation.  That makes you one of the few non-zombies in the world that can calibrate an Autodoc, which might come in handy.",
     "points": 4,
     "skills": [ { "level": 4, "name": "firstaid" }, { "level": 4, "name": "electronics" } ],
-    "proficiencies": [ "prof_intro_biology", "prof_physiology", "prof_wound_care" ],
+    "proficiencies": [ "prof_physiology", "prof_wound_care" ],
     "traits": [ "PROF_AUTODOC" ],
     "items": {
       "both": {
@@ -277,7 +277,7 @@
     "points": 6,
     "CBMs": [ "bio_surgical_razor", "bio_flashlight", "bio_batteries", "bio_power_storage_mkII" ],
     "skills": [ { "level": 8, "name": "firstaid" } ],
-    "proficiencies": [ "prof_intro_biology", "prof_physiology", "prof_wound_care", "prof_wound_care_expert" ],
+    "proficiencies": [ "prof_physiology", "prof_wound_care", "prof_wound_care_expert" ],
     "traits": [ "PROF_MED" ],
     "items": {
       "both": {
@@ -370,7 +370,7 @@
       { "level": 2, "name": "cutting" },
       { "level": 1, "name": "bashing" }
     ],
-    "proficiencies": [ "prof_fibers", "prof_fibers_rope", "prof_leatherworking", "prof_lockpicking" ],
+    "proficiencies": [ "prof_lockpicking" ],
     "items": {
       "both": {
         "items": [
@@ -431,7 +431,7 @@
     "name": "Bionic Sniper",
     "description": "A top-secret military program sought to convert you into the perfect sniper.  Your bionics, equipment, and extensive field training enable you to drop targets from implausible distances, even after weeks of total isolation in enemy territory.",
     "points": 8,
-    "proficiencies": [ "prof_gunsmithing_basic", "prof_spotting" ],
+    "proficiencies": [ "prof_spotting" ],
     "CBMs": [
       "bio_eye_enhancer",
       "bio_targeting",
@@ -499,7 +499,7 @@
     "name": "Bionic Soldier",
     "description": "You are the result of one of the military's last research programs: a prototype cyborg soldier.  The wars they expected you to fight have become obsolete, but war never changes.",
     "points": 6,
-    "proficiencies": [ "prof_gunsmithing_basic", "prof_spotting" ],
+    "proficiencies": [ "prof_spotting" ],
     "CBMs": [
       "bio_targeting",
       "bio_purifier",
@@ -640,7 +640,6 @@
     "description": "For better or for worse, bionic augmentation has turned you into a walking power tool.  Upgraded with a standard industrial-grade manual labor surgery and training package, you are augmented with bionic muscles and an integrated toolset, both powered by standard batteries.",
     "points": 6,
     "skills": [ { "level": 4, "name": "fabrication" }, { "level": 2, "name": "mechanics" } ],
-    "proficiencies": [ "prof_metalworking", "prof_welding_basic", "prof_plumbing" ],
     "CBMs": [
       "bio_tools",
       "bio_sunglasses",

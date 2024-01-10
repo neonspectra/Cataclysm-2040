@@ -44,7 +44,7 @@
     "description": "The ancient circle of druids is gone with the Cataclysm.  Nature must thrive.",
     "points": 4,
     "skills": [ { "level": 1, "name": "spellcraft" }, { "level": 1, "name": "survival" } ],
-    "proficiencies": [ "prof_fibers" ],
+    "//proficiencies": [ "prof_fibers" ],
     "spells": [ { "id": "druid_woodshaft", "level": 2 } ],
     "items": {
       "both": [ "druid_spellbook", "leathersandals", "robe", "rope_makeshift_30", "hide_bag", "hat_fur", "gloves_wraps_fur" ]
@@ -428,7 +428,7 @@
     "name": "Academy Wizard",
     "description": "A year of enrollment in a wizard's academy has taught you patience, wisdom, and a handful of useful spells.  With the teachers converted into the undead and classes cancelled, the final lesson has begun.",
     "points": 4,
-    "proficiencies": [ "prof_alchemy" ],
+    "//proficiencies": [ "prof_alchemy" ],
     "spells": [
       { "id": "magic_missile", "level": 6 },
       { "id": "magus_mana_bolt", "level": 2 },
@@ -556,7 +556,7 @@
     "points": 4,
     "spells": [ { "id": "light_healing", "level": 3 } ],
     "skills": [ { "level": 3, "name": "firstaid" }, { "level": 2, "name": "spellcraft" } ],
-    "proficiencies": [ "prof_wound_care", "prof_intro_biology", "prof_burn_care" ],
+    "//proficiencies": [ "prof_wound_care", "prof_intro_biology", "prof_burn_care" ],
     "items": {
       "both": {
         "items": [ "longshirt", "pants", "socks", "sneakers", "gloves_medical", "coat_lab", "xacto", "wristwatch" ],
@@ -577,7 +577,7 @@
     "name": "Wildborne Rider",
     "description": "Abandoned at a young age and raised by moose, you had to master the wilds to survive.  While the modern world has been devoured, you and your steed are no stranger to hardship.",
     "points": 6,
-    "proficiencies": [ "prof_bowyery", "prof_fibers", "prof_knapping", "prof_bow_basic", "prof_bow_expert" ],
+    "//proficiencies": [ "prof_bowyery", "prof_fibers", "prof_knapping", "prof_bow_basic", "prof_bow_expert" ],
     "spells": [
       { "id": "druidic_healing", "level": 4 },
       { "id": "purify_seed", "level": 4 },

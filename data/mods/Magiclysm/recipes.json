@@ -42,7 +42,7 @@
     "difficulty": 8,
     "time": "7 h",
     "book_learn": [ [ "textbook_mithril", 7 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },

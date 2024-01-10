@@ -11,7 +11,7 @@
     "time": "4 h",
     "autolearn": true,
     "qualities": [ { "id": "SEW", "level": 1 }, { "id": "LEATHER_AWL", "level": 1 }, { "id": "CUT", "level": 2 } ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_leatherworking_basic", "required": false, "time_multiplier": 2, "fail_multiplier": 1.5 },
       { "proficiency": "prof_leatherworking" },
       { "proficiency": "prof_closures", "required": false, "time_multiplier": 1.5 },
@@ -35,7 +35,7 @@
     "time": "8 h",
     "autolearn": true,
     "qualities": [ { "id": "SEW", "level": 1 }, { "id": "LEATHER_AWL", "level": 1 }, { "id": "CUT", "level": 2 } ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_leatherworking_basic", "required": false, "time_multiplier": 2, "fail_multiplier": 1.5 },
       { "proficiency": "prof_leatherworking" },
       { "proficiency": "prof_closures", "required": false, "time_multiplier": 1.5 },

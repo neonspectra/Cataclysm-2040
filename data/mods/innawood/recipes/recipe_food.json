@@ -11,7 +11,7 @@
     "autolearn": true,
     "qualities": [ [ { "id": "COOK", "level": 2 } ], [ { "id": "OVEN", "level": 1 } ] ],
     "tools": [ [ [ "surface_heat", 5, "LIST" ] ] ],
-    "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_forage_cooking" } ],
+    "//proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_forage_cooking" } ],
     "components": [ [ [ "dahlia_root", 1 ] ] ]
   },
   {
@@ -28,7 +28,7 @@
     "autolearn": true,
     "qualities": [ { "id": "COOK", "level": 2 }, { "id": "CUT", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 5, "LIST" ] ] ],
-    "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_forage_cooking" } ],
+    "//proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_forage_cooking" } ],
     "components": [ [ [ "raw_burdock", 1 ] ], [ [ "water", 1 ], [ "water_clean", 1 ] ] ]
   },
   {
@@ -44,7 +44,7 @@
     "autolearn": true,
     "qualities": [ { "id": "COOK", "level": 2 }, { "id": "CUT", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 8, "LIST" ] ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_food_prep" },
       { "proficiency": "prof_forage_cooking" },
       { "proficiency": "prof_frying" },
@@ -66,7 +66,7 @@
     "//": "the cooking oil isn't supposed to be expended since you can recycle it after frying the burdocks",
     "qualities": [ { "id": "COOK", "level": 2 }, { "id": "CUT", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 8, "LIST" ] ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_food_prep" },
       { "proficiency": "prof_forage_cooking" },
       { "proficiency": "prof_frying" },
@@ -93,7 +93,7 @@
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 2 }, { "id": "BOIL", "level": 1 } ],
     "tools": [ [ [ "water_boiling_heat", 2, "LIST" ] ] ],
-    "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_forage_cooking" } ],
+    "//proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_forage_cooking" } ],
     "components": [ [ [ "pine_bough", 1 ] ], [ [ "water", 1 ], [ "water_clean", 1 ] ] ]
   },
   {
@@ -109,7 +109,7 @@
     "autolearn": true,
     "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "CUT", "level": 1 } ],
     "tools": [ [ [ "water_boiling_heat", 2, "LIST" ] ] ],
-    "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_forage_cooking" } ],
+    "//proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_forage_cooking" } ],
     "components": [ [ [ "raw_dandelion", 1 ] ], [ [ "water", 1 ], [ "water_clean", 1 ] ] ]
   },
   {
@@ -125,7 +125,7 @@
     "autolearn": true,
     "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "CUT", "level": 1 } ],
     "tools": [ [ [ "water_boiling_heat", 2, "LIST" ] ] ],
-    "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_forage_cooking" } ],
+    "//proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_forage_cooking" } ],
     "components": [ [ [ "raw_dandelion", 1 ] ], [ [ "raw_burdock", 1 ] ], [ [ "water", 1 ], [ "water_clean", 1 ] ] ]
   },
   {
@@ -141,7 +141,7 @@
     "autolearn": true,
     "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "CUT", "level": 2 } ],
     "tools": [ [ [ "water_boiling_heat", 2, "LIST" ] ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_food_prep" },
       { "proficiency": "prof_knife_skills" },
       { "proficiency": "prof_forage_cooking" }
@@ -162,7 +162,7 @@
     "autolearn": true,
     "qualities": [ { "id": "BOIL", "level": 1 } ],
     "tools": [ [ [ "water_boiling_heat", 2, "LIST" ] ] ],
-    "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_forage_cooking" } ],
+    "//proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_forage_cooking" } ],
     "components": [ [ [ "chamomile", 1 ] ], [ [ "water", 1 ], [ "water_clean", 1 ] ] ]
   },
   {
@@ -180,7 +180,7 @@
     "autolearn": true,
     "qualities": [ { "id": "BOIL", "level": 1 } ],
     "tools": [ [ [ "water_boiling_heat", 2, "LIST" ] ] ],
-    "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_forage_cooking" } ],
+    "//proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_forage_cooking" } ],
     "components": [ [ [ "lotus", 1 ] ], [ [ "water", 4 ], [ "water_clean", 4 ] ] ]
   },
   {
@@ -197,7 +197,7 @@
     "autolearn": true,
     "qualities": [ { "id": "BOIL", "level": 1 } ],
     "tools": [ [ [ "water_boiling_heat", 2, "LIST" ] ] ],
-    "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_forage_cooking" } ],
+    "//proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_forage_cooking" } ],
     "components": [ [ [ "spurge", 1 ] ], [ [ "water", 1 ], [ "water_clean", 1 ] ] ]
   },
   {
@@ -215,7 +215,7 @@
     "batch_time_factors": [ 90, 1 ],
     "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "BOIL", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 30, "LIST" ] ] ],
-    "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_forage_cooking" } ],
+    "//proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_forage_cooking" } ],
     "components": [ [ [ "water_clean", 1 ] ], [ [ "coffee_pod", 1 ] ] ]
   },
   {
@@ -232,7 +232,7 @@
     "autolearn": true,
     "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "CUT", "level": 2 } ],
     "tools": [ [ [ "water_boiling_heat", 8, "LIST" ] ] ],
-    "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_forage_cooking" } ],
+    "//proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_forage_cooking" } ],
     "components": [ [ [ "water", 1 ], [ "water_clean", 1 ] ], [ [ "tanbark", 2 ] ] ]
   },
   {
@@ -401,7 +401,7 @@
       [ [ "char_smoker", 10 ] ],
       [ [ "funnel", -1 ], [ "makeshift_funnel", -1 ], [ "leather_funnel", -1 ], [ "metal_funnel", -1 ] ]
     ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_food_prep" },
       { "proficiency": "prof_knife_skills" },
       { "proficiency": "prof_preservation" },
@@ -434,7 +434,7 @@
     "autolearn": true,
     "batch_time_factors": [ 50, 3 ],
     "qualities": [ { "id": "CUT", "level": 2 }, { "id": "COOK", "level": 1 } ],
-    "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_knife_skills" } ],
+    "//proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_knife_skills" } ],
     "tools": [ [ [ "funnel", -1 ], [ "makeshift_funnel", -1 ], [ "leather_funnel", -1 ], [ "metal_funnel", -1 ] ] ],
     "components": [
       [ [ "meat_red", 2, "LIST" ], [ "meat_liver", 10, "LIST" ] ],

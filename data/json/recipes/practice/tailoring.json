@@ -8,7 +8,7 @@
     "name": "knitting",
     "description": "Practice knitting whatever comes to your mind, from simple forms to elaborate and rich designs.",
     "skill_used": "tailor",
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_knitting", "fail_multiplier": 1, "time_multiplier": 1 },
       { "proficiency": "prof_knitting_speed", "fail_multiplier": 1, "time_multiplier": 1 }
     ],
@@ -27,7 +27,7 @@
     "name": "garment closures",
     "description": "Practice the principles of garment closures by sewing some buttons and similar fasteners to some cotton patches.",
     "skill_used": "tailor",
-    "proficiencies": [ { "proficiency": "prof_closures", "fail_multiplier": 1, "time_multiplier": 1 } ],
+    "//proficiencies": [ { "proficiency": "prof_closures", "fail_multiplier": 1, "time_multiplier": 1 } ],
     "time": "1 h",
     "practice_data": { "min_difficulty": 1, "max_difficulty": 2, "skill_limit": 3 },
     "autolearn": [ [ "tailor", 2 ] ],
@@ -44,7 +44,7 @@
     "name": "fabric waterproofing",
     "description": "Practice the principles of sealing garments and fabric against water by making a basic waterproof layer from plastic bags duct taped together, you will need some water and a rag.",
     "skill_used": "tailor",
-    "proficiencies": [ { "proficiency": "prof_closures_waterproofing", "fail_multiplier": 1, "time_multiplier": 1 } ],
+    "//proficiencies": [ { "proficiency": "prof_closures_waterproofing", "fail_multiplier": 1, "time_multiplier": 1 } ],
     "time": "1 h",
     "practice_data": { "min_difficulty": 1, "max_difficulty": 2, "skill_limit": 3 },
     "autolearn": [ [ "tailor", 2 ] ],
@@ -62,7 +62,7 @@
     "name": "advanced polymer sewing",
     "description": "Practice cutting and sewing together advanced polymers like Kevlar or Nomex.",
     "skill_used": "tailor",
-    "proficiencies": [ { "proficiency": "prof_polymerworking", "fail_multiplier": 1, "time_multiplier": 1 } ],
+    "//proficiencies": [ { "proficiency": "prof_polymerworking", "fail_multiplier": 1, "time_multiplier": 1 } ],
     "time": "1 h",
     "practice_data": { "min_difficulty": 1, "max_difficulty": 2, "skill_limit": 3 },
     "autolearn": [ [ "tailor", 2 ] ],
@@ -81,7 +81,7 @@
     "name": "stretch fabric",
     "description": "Practice the use of stretch fabric in clothing by making and modifying some basic garment forms with lycra patches.",
     "skill_used": "tailor",
-    "proficiencies": [ { "proficiency": "prof_elastics", "fail_multiplier": 1, "time_multiplier": 1 } ],
+    "//proficiencies": [ { "proficiency": "prof_elastics", "fail_multiplier": 1, "time_multiplier": 1 } ],
     "time": "1 h",
     "practice_data": { "min_difficulty": 1, "max_difficulty": 2, "skill_limit": 3 },
     "autolearn": [ [ "tailor", 2 ] ],
@@ -98,7 +98,7 @@
     "name": "leatherworking (beginner)",
     "description": "Practice basic leatherworking skills by cutting and punching holes in leather, and stitching together leather patches.",
     "skill_used": "tailor",
-    "proficiencies": [ { "proficiency": "prof_leatherworking_basic", "fail_multiplier": 1, "time_multiplier": 1 } ],
+    "//proficiencies": [ { "proficiency": "prof_leatherworking_basic", "fail_multiplier": 1, "time_multiplier": 1 } ],
     "time": "1 h",
     "practice_data": { "min_difficulty": 1, "max_difficulty": 2, "skill_limit": 3 },
     "autolearn": [ [ "tailor", 2 ] ],
@@ -114,7 +114,7 @@
     "name": "leatherworking (advanced)",
     "description": "Practice the correct cut and sewing of big leather patches in clothing making, using your knowledge to give it practical forms.",
     "skill_used": "tailor",
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_leatherworking_basic", "required": true },
       { "proficiency": "prof_leatherworking", "fail_multiplier": 1, "time_multiplier": 1 }
     ],
@@ -136,7 +136,7 @@
     "description": "Practice the use of chitin as an armor component by shaping and attaching several pieces together.",
     "skill_used": "tailor",
     "skills_required": [ [ "fabrication", 3 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_leatherworking_basic", "required": true },
       { "proficiency": "prof_chitinworking", "fail_multiplier": 1, "time_multiplier": 1 }
     ],
@@ -157,7 +157,7 @@
     "name": "joint articulation",
     "description": "Practice the making of articulated joints in clothing by sewing some gloves and other basic cloth joints with several layers of cotton patches for rigidity.",
     "skill_used": "tailor",
-    "proficiencies": [ { "proficiency": "prof_articulation", "fail_multiplier": 1, "time_multiplier": 1 } ],
+    "//proficiencies": [ { "proficiency": "prof_articulation", "fail_multiplier": 1, "time_multiplier": 1 } ],
     "time": "1 h",
     "practice_data": { "min_difficulty": 3, "max_difficulty": 4, "skill_limit": 5 },
     "autolearn": [ [ "tailor", 4 ] ],

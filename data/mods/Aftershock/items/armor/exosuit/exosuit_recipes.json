@@ -13,7 +13,7 @@
     "components": [ [ [ "damaged_exo_helmet_steel", 1 ] ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 } ],
     "tools": [ [ [ "swage", -1 ] ], [ [ "metal_tank", -1 ] ], [ [ "water", -120 ] ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_armorsmithing" },
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
@@ -34,7 +34,7 @@
     "components": [ [ [ "damaged_exo_torso_steel", 1 ] ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 } ],
     "tools": [ [ [ "swage", -1 ] ], [ [ "metal_tank", -1 ] ], [ [ "water", -120 ] ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_armorsmithing" },
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
@@ -55,7 +55,7 @@
     "components": [ [ [ "damaged_exo_arm_steel", 1 ] ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 } ],
     "tools": [ [ [ "swage", -1 ] ], [ [ "metal_tank", -1 ] ], [ [ "water", -120 ] ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_armorsmithing" },
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
@@ -76,7 +76,7 @@
     "components": [ [ [ "damaged_exo_leg_steel", 1 ] ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 } ],
     "tools": [ [ [ "swage", -1 ] ], [ [ "metal_tank", -1 ] ], [ [ "water", -120 ] ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_armorsmithing" },
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
@@ -95,7 +95,7 @@
     "time": "2 h",
     "using": [ [ "plastic_molding", 4 ], [ "soldering_standard", 10 ], [ "surface_heat", 10 ] ],
     "components": [ [ [ "damaged_exo_helmet_plastic", 1 ] ] ],
-    "proficiencies": [ { "proficiency": "prof_plasticworking" } ]
+    "//proficiencies": [ { "proficiency": "prof_plasticworking" } ]
   },
   {
     "result": "exo_torso_plastic",
@@ -109,7 +109,7 @@
     "time": "8 h",
     "using": [ [ "plastic_molding", 8 ], [ "soldering_standard", 20 ], [ "surface_heat", 20 ] ],
     "components": [ [ [ "damaged_exo_torso_plastic", 1 ] ] ],
-    "proficiencies": [ { "proficiency": "prof_plasticworking" } ]
+    "//proficiencies": [ { "proficiency": "prof_plasticworking" } ]
   },
   {
     "result": "exo_arm_plastic",
@@ -123,7 +123,7 @@
     "time": "6 h",
     "using": [ [ "plastic_molding", 6 ], [ "soldering_standard", 15 ], [ "surface_heat", 15 ] ],
     "components": [ [ [ "damaged_exo_arm_plastic", 1 ] ] ],
-    "proficiencies": [ { "proficiency": "prof_plasticworking" } ]
+    "//proficiencies": [ { "proficiency": "prof_plasticworking" } ]
   },
   {
     "result": "exo_leg_plastic",
@@ -137,6 +137,6 @@
     "time": "6 h",
     "using": [ [ "plastic_molding", 6 ], [ "soldering_standard", 15 ], [ "surface_heat", 15 ] ],
     "components": [ [ [ "damaged_exo_leg_plastic", 1 ] ] ],
-    "proficiencies": [ { "proficiency": "prof_plasticworking" } ]
+    "//proficiencies": [ { "proficiency": "prof_plasticworking" } ]
   }
 ]

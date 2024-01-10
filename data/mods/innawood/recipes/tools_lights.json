@@ -31,7 +31,7 @@
     "time": "30 m",
     "reversible": true,
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_plasticworking", "time_multiplier": 1.5 }, { "proficiency": "prof_elec_soldering" } ],
+    "//proficiencies": [ { "proficiency": "prof_plasticworking", "time_multiplier": 1.5 }, { "proficiency": "prof_elec_soldering" } ],
     "using": [ [ "soldering_standard", 7 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
     "components": [
@@ -123,7 +123,7 @@
     "reversible": true,
     "decomp_learn": 1,
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_plasticworking", "time_multiplier": 1.5 } ],
+    "//proficiencies": [ { "proficiency": "prof_plasticworking", "time_multiplier": 1.5 } ],
     "components": [
       [ [ "amplifier", 2 ], [ "makeshift_transformer", 4 ] ],
       [ [ "plastic_chunk", 2 ], [ "scrap", 3 ] ],
@@ -144,7 +144,7 @@
     "decomp_learn": 1,
     "autolearn": true,
     "time": "15 m",
-    "proficiencies": [ { "proficiency": "prof_plasticworking", "required": false, "time_multiplier": 1.5 } ],
+    "//proficiencies": [ { "proficiency": "prof_plasticworking", "required": false, "time_multiplier": 1.5 } ],
     "components": [
       [ [ "amplifier", 3 ], [ "makeshift_transformer", 6 ] ],
       [ [ "plastic_chunk", 3 ], [ "scrap", 4 ] ],
@@ -189,7 +189,7 @@
     "autolearn": true,
     "reversible": true,
     "using": [ [ "soldering_standard", 10 ] ],
-    "proficiencies": [ { "proficiency": "prof_elec_soldering" } ],
+    "//proficiencies": [ { "proficiency": "prof_elec_soldering" } ],
     "qualities": [ { "id": "CUT", "level": 2 }, { "id": "SCREW", "level": 1 } ],
     "components": [
       [ [ "flashlight", 1 ] ],

@@ -45,7 +45,7 @@
     "time": "30 m",
     "reversible": true,
     "book_learn": [ [ "manual_electronics", 3 ], [ "mag_electronics", 4 ], [ "textbook_electronics", 2 ] ],
-    "proficiencies": [ { "proficiency": "prof_plasticworking", "time_multiplier": 1.5 }, { "proficiency": "prof_elec_soldering" } ],
+    "//proficiencies": [ { "proficiency": "prof_plasticworking", "time_multiplier": 1.5 }, { "proficiency": "prof_elec_soldering" } ],
     "using": [ [ "soldering_standard", 7 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
     "components": [ [ [ "cable", 8 ] ], [ [ "plastic_chunk", 2 ] ], [ [ "circuit", 2 ] ], [ [ "e_scrap", 2 ] ], [ [ "amplifier", 1 ] ] ]
@@ -63,7 +63,7 @@
     "reversible": true,
     "decomp_learn": 4,
     "book_learn": [ [ "advanced_electronics", 3 ], [ "mag_electronics", 4 ], [ "textbook_electronics", 2 ] ],
-    "proficiencies": [ { "proficiency": "prof_plasticworking", "time_multiplier": 1.5 }, { "proficiency": "prof_elec_soldering" } ],
+    "//proficiencies": [ { "proficiency": "prof_plasticworking", "time_multiplier": 1.5 }, { "proficiency": "prof_elec_soldering" } ],
     "using": [ [ "soldering_standard", 12 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
     "components": [
@@ -156,7 +156,7 @@
     "reversible": true,
     "decomp_learn": 1,
     "book_learn": [ [ "manual_electronics", 1 ], [ "mag_electronics", 2 ] ],
-    "proficiencies": [ { "proficiency": "prof_plasticworking", "time_multiplier": 1.5 } ],
+    "//proficiencies": [ { "proficiency": "prof_plasticworking", "time_multiplier": 1.5 } ],
     "components": [
       [ [ "amplifier", 2 ] ],
       [ [ "plastic_chunk", 2 ], [ "scrap", 3 ] ],
@@ -177,7 +177,7 @@
     "decomp_learn": 1,
     "book_learn": [ [ "manual_electronics", 1 ], [ "mag_electronics", 2 ] ],
     "time": "15 m",
-    "proficiencies": [ { "proficiency": "prof_plasticworking", "required": false, "time_multiplier": 1.5 } ],
+    "//proficiencies": [ { "proficiency": "prof_plasticworking", "required": false, "time_multiplier": 1.5 } ],
     "components": [
       [ [ "amplifier", 3 ] ],
       [ [ "plastic_chunk", 3 ], [ "scrap", 4 ] ],
@@ -196,7 +196,7 @@
     "time": "30 m",
     "reversible": true,
     "book_learn": [ [ "textbook_electronics", 3 ], [ "advanced_electronics", 3 ], [ "recipe_caseless", 2 ] ],
-    "proficiencies": [ { "proficiency": "prof_plasticworking" } ],
+    "//proficiencies": [ { "proficiency": "prof_plasticworking" } ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
     "components": [
       [ [ "plastic_chunk", 1 ] ],
@@ -244,7 +244,7 @@
     "autolearn": true,
     "reversible": true,
     "using": [ [ "soldering_standard", 10 ] ],
-    "proficiencies": [ { "proficiency": "prof_elec_soldering" } ],
+    "//proficiencies": [ { "proficiency": "prof_elec_soldering" } ],
     "qualities": [ { "id": "CUT", "level": 2 }, { "id": "SCREW", "level": 1 } ],
     "components": [
       [ [ "flashlight", 1 ] ],
@@ -273,7 +273,7 @@
     "reversible": true,
     "autolearn": true,
     "using": [ [ "soldering_standard", 10 ] ],
-    "proficiencies": [ { "proficiency": "prof_elec_soldering" } ],
+    "//proficiencies": [ { "proficiency": "prof_elec_soldering" } ],
     "qualities": [ { "id": "CUT", "level": 2 }, { "id": "SCREW", "level": 1 } ],
     "components": [
       [ [ "betavoltaic", 4 ] ],
@@ -320,7 +320,7 @@
     "time": "30 m",
     "autolearn": true,
     "using": [ [ "earthenware_firing", 70 ] ],
-    "proficiencies": [ { "proficiency": "prof_pottery" } ],
+    "//proficiencies": [ { "proficiency": "prof_pottery" } ],
     "components": [
       [ [ "water", 1 ], [ "water_clean", 1 ] ],
       [ [ "clay_lump", 3 ] ],
@@ -356,7 +356,7 @@
     "time": "45 m",
     "book_learn": [ [ "textbook_fabrication", 3 ], [ "textbook_mechanics", 3 ], [ "welding_book", 5 ] ],
     "using": [ [ "welding_standard", 2 ] ],
-    "proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_welding_basic" }, { "proficiency": "prof_welding" } ],
+    "//proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_welding_basic" }, { "proficiency": "prof_welding" } ],
     "qualities": [ { "id": "SAW_M", "level": 1 } ],
     "components": [ [ [ "car_headlight", 1 ] ], [ [ "wire", 2 ] ], [ [ "superglue", 1 ] ] ]
   },
@@ -371,7 +371,7 @@
     "time": "45 m",
     "book_learn": [ [ "textbook_fabrication", 3 ], [ "textbook_mechanics", 3 ], [ "welding_book", 5 ] ],
     "using": [ [ "welding_standard", 2 ] ],
-    "proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_welding_basic" }, { "proficiency": "prof_welding" } ],
+    "//proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_welding_basic" }, { "proficiency": "prof_welding" } ],
     "qualities": [ { "id": "SAW_M", "level": 1 } ],
     "components": [ [ [ "car_wide_headlight", 1 ] ], [ [ "wire", 3 ] ], [ [ "superglue", 1 ] ] ]
   },
@@ -386,7 +386,7 @@
     "time": "45 m",
     "reversible": true,
     "book_learn": [ [ "textbook_electronics", 4 ], [ "advanced_electronics", 4 ], [ "recipe_caseless", 3 ] ],
-    "proficiencies": [ { "proficiency": "prof_plasticworking" } ],
+    "//proficiencies": [ { "proficiency": "prof_plasticworking" } ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
     "components": [
       [ [ "plastic_chunk", 2 ] ],

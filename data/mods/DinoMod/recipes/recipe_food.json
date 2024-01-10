@@ -11,7 +11,7 @@
     "batch_time_factors": [ 67, 5 ],
     "qualities": [ { "id": "BOIL", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 7, "LIST" ] ] ],
-    "proficiencies": [ { "proficiency": "prof_food_prep" } ],
+    "//proficiencies": [ { "proficiency": "prof_food_prep" } ],
     "components": [ [ [ "stomach_sauropod", 1 ] ], [ [ "water", 2 ], [ "water_clean", 2 ] ] ]
   },
   {

@@ -76,7 +76,7 @@
     "difficulty": 7,
     "time": "1 h",
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_glassblowing" } ],
+    "//proficiencies": [ { "proficiency": "prof_glassblowing" } ],
     "qualities": [ { "id": "CHISEL", "level": 3 } ],
     "tools": [ [ [ "tongs", -1 ] ], [ [ "pipe", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 75 ] ] ],
     "components": [
@@ -94,7 +94,7 @@
     "difficulty": 7,
     "time": "1 h",
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_glassblowing" } ],
+    "//proficiencies": [ { "proficiency": "prof_glassblowing" } ],
     "qualities": [ { "id": "CHISEL", "level": 3 } ],
     "tools": [ [ [ "tongs", -1 ] ], [ [ "pipe", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 75 ] ] ],
     "components": [ [ [ "glass_shard", 3 ], [ "pipe_glass", 1 ], [ "flask_glass", 3 ], [ "test_tube", 6 ], [ "marble", 75 ] ] ]
@@ -109,7 +109,7 @@
     "difficulty": 3,
     "time": "30 m",
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_glassblowing" } ],
+    "//proficiencies": [ { "proficiency": "prof_glassblowing" } ],
     "qualities": [ { "id": "CHISEL", "level": 3 } ],
     "tools": [ [ [ "tongs", -1 ] ], [ [ "pipe", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 75 ] ] ],
     "using": [ [ "dye_cloth", 1 ] ],
@@ -131,7 +131,7 @@
     "autolearn": true,
     "qualities": [ { "id": "HAMMER", "level": 1 } ],
     "using": [ [ "sewing_standard", 100 ] ],
-    "proficiencies": [ { "proficiency": "prof_leatherworking_basic" }, { "proficiency": "prof_leatherworking" } ],
+    "//proficiencies": [ { "proficiency": "prof_leatherworking_basic" }, { "proficiency": "prof_leatherworking" } ],
     "components": [
       [ [ "leather", 8 ], [ "tanned_hide", 1 ], [ "fur", 8 ], [ "tanned_pelt", 1 ] ],
       [ [ "2x4", 4 ] ],
@@ -174,7 +174,7 @@
     "difficulty": 2,
     "time": "1 h",
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_carpentry_basic" } ],
+    "//proficiencies": [ { "proficiency": "prof_carpentry_basic" } ],
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_W", "level": 2 } ],
     "components": [
       [ [ "wood_panel", 1 ] ],
@@ -196,7 +196,7 @@
     "autolearn": true,
     "using": [ [ "cordage", 1 ] ],
     "qualities": [ { "id": "CUT", "level": 2 } ],
-    "proficiencies": [ { "proficiency": "prof_carving" } ],
+    "//proficiencies": [ { "proficiency": "prof_carving" } ],
     "components": [ [ [ "stick", 1 ], [ "2x4", 1 ] ], [ [ "cotton_patchwork", 4 ], [ "fibercloth_patchwork", 4 ] ] ]
   },
   {
@@ -209,7 +209,7 @@
     "difficulty": 5,
     "time": "30 m",
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_glassblowing", "required": false, "time_multiplier": 6 } ],
+    "//proficiencies": [ { "proficiency": "prof_glassblowing", "required": false, "time_multiplier": 6 } ],
     "tools": [ [ [ "tongs", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 75 ] ] ],
     "components": [ [ [ "glass_sheet", 1 ] ], [ [ "silver_small", 10 ] ] ]
   }
