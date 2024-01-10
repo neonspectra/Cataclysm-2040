@@ -134,8 +134,7 @@
     "id": "hobby_heli_pilot",
     "name": "Piloting",
     "description": "You're probably one of the last people alive who knows how to safely operate a flying vehicle.  It remains to be seen whether you'll live long enough to make use of that skill.",
-    "points": 2,
-    "skills": [ { "level": 2, "name": "driving" }, { "level": 2, "name": "mechanics" } ],
+    "points": 0,
     "proficiencies": [ "prof_helicopter_pilot" ]
   },
   {
