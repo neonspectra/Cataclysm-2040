@@ -26,7 +26,7 @@
     "time_to_learn": "4 h",
     "default_time_multiplier": 2,
     "default_fail_multiplier": 1.2,
-    "required_proficiencies": [ "prof_alchemy", "prof_metalworking" ]
+    "required_//proficiencies": [ "prof_alchemy", "prof_metalworking" ]
   },
   {
     "type": "proficiency",
@@ -38,7 +38,7 @@
     "default_time_multiplier": 1.5,
     "default_fail_multiplier": 2,
     "time_to_learn": "6 h",
-    "required_proficiencies": [ "prof_leatherworking" ]
+    "required_//proficiencies": [ "prof_leatherworking" ]
   },
   {
     "type": "proficiency",
@@ -50,7 +50,7 @@
     "default_time_multiplier": 2,
     "default_fail_multiplier": 3,
     "time_to_learn": "12 h",
-    "required_proficiencies": [ "prof_leatherworking_dragon" ]
+    "required_//proficiencies": [ "prof_leatherworking_dragon" ]
   },
   {
     "type": "proficiency",

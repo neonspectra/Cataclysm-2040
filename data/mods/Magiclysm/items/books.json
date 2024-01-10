@@ -54,7 +54,7 @@
     "skill": "fabrication",
     "required_level": 7,
     "max_level": 10,
-    "proficiencies": [ { "proficiency": "prof_bladesmith", "time_factor": 0.2, "fail_factor": 0.3, "include_prereqs": false } ],
+    "//proficiencies": [ { "proficiency": "prof_bladesmith", "time_factor": 0.2, "fail_factor": 0.3, "include_prereqs": false } ],
     "intelligence": 9,
     "time": "60 m",
     "fun": -1

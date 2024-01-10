@@ -12,7 +12,7 @@
     "reversible": false,
     "autolearn": true,
     "using": [ [ "welding_standard", 20 ] ],
-    "proficiencies": [
+    "//proficiencies": [
       { "proficiency": "prof_metalworking", "required": false, "learning_time_multiplier": 0.5 },
       { "proficiency": "prof_welding_basic", "required": false, "fail_multiplier": 1.5 }
     ],
