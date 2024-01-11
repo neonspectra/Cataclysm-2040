@@ -696,7 +696,7 @@
         "max": 5
       },
       {
-        "drop": "bionics_common",
+        "drop": "bionics_sci",
         "type": "bionic_group",
         "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
         "faults": [ "fault_bionic_salvaged" ],
