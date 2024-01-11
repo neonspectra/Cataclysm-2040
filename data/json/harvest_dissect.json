@@ -684,7 +684,7 @@
   {
     "id": "dissect_mon_zombie_scientist",
     "type": "harvest",
-    "message": "You carefully cut apart what's left of the zombie scientist.",
+    "message": "You carefully cut apart what's left of the scientist.",
     "entries": [
       {
         "drop": "bio_power_storage",
