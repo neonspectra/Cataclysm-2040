@@ -4,9 +4,9 @@
     <img src="./data/screenshots/ultica-showcase-sep-2021.png" alt="Tileset: Ultica">
 </p>
 
-April, 2040. Five days after an event called the Cataclysm, the mundane routine of a civilized world has transformed into a desparate fight for survival of the human race. From the mist of government conspiracies and cover-ups, the few who saw the coming dangers prepared themselves for the end of the world...
+Five days after an event called the Cataclysm, the mundane routine of a civilized world has transformed into a desparate fight for survival of the human race. From the mist of government conspiracies and cover-ups, the few who saw the coming dangers prepared themselves for the end of the world...
 
-Cataclysm 2040 is a turn-based roguelike survival game set in a cyberpunk post-apocalyptic world. Forked from the critically acclaimed [Cataclysm: Dark Days Ahead](https://github.com/CleverRaven/Cataclysm-DDA/), Cataclysm 2040 is a revival project that seeks to restore the original futuristic setting and thematics of Cataclysm prior to the "present-day" retcon.
+Cataclysm 2040 is a turn-based roguelike survival game set in a cyberpunk post-apocalyptic future. Forked from the critically acclaimed [Cataclysm: Dark Days Ahead](https://github.com/CleverRaven/Cataclysm-DDA/), Cataclysm 2040 is a revival project that seeks to restore the original futuristic setting and thematics of Cataclysm prior to the "present-day" retcon.
 
 ## Design Philosophy
 
