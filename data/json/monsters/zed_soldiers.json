@@ -71,6 +71,7 @@
     "vision_day": 30,
     "vision_night": 35,
     "harvest": "zombie",
+    "dissect": "dissect_bionics_mil",
     "special_attacks": [
       {
         "type": "bite",
@@ -490,7 +491,8 @@
     "vision_day": 50,
     "vision_night": 3,
     "luminance": 4,
-    "harvest": "CBM_OP",
+    "harvest": "zombie",
+    "dissect": "dissect_mon_zombie_bio_op",
     "special_attacks": [ { "id": "bio_op_takedown", "cooldown": 20 } ],
     "special_when_hit": [ "ZAPBACK", 75 ],
     "death_drops": "mon_zombie_bio_op_death_drops",
@@ -523,7 +525,8 @@
     "dodge": 4,
     "armor_bash": 15,
     "armor_cut": 27,
-    "harvest": "CBM_OP2",
+    "harvest": "zombie",
+    "dissect": "dissect_mon_zombie_bio_op2",
     "special_attacks": [ [ "BIO_OP_BIOJUTSU", 15 ] ]
   }
 ]
