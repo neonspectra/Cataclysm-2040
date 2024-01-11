@@ -1580,6 +1580,7 @@
     "vision_day": 15,
     "vision_night": 2,
     "harvest": "zombie",
+    "dissect": "dissect_mon_zombie_technician",
     "fungalize_into": "mon_zombie_fungus",
     "special_attacks": [ [ "PULL_METAL_WEAPON", 25 ], { "type": "bite", "cooldown": 20 } ],
     "death_drops": "mon_zombie_technician_death_drops",

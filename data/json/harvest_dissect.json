@@ -682,6 +682,140 @@
     ]
   },
   {
+    "id": "dissect_mon_zombie_scientist",
+    "type": "harvest",
+    "message": "You carefully cut apart what's left of the scientist.",
+    "entries": [
+      {
+        "drop": "bio_power_storage",
+        "type": "bionic",
+        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ],
+        "base_num": [ 0, 2 ],
+        "scale_num": [ 0.1, 0.6 ],
+        "max": 5
+      },
+      {
+        "drop": "bionics_sci",
+        "type": "bionic_group",
+        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ],
+        "base_num": [ 0, 2 ],
+        "scale_num": [ 0.1, 0.6 ],
+        "max": 5
+      }
+    ]
+  },
+  {
+    "id": "dissect_mon_zombie_technician",
+    "type": "harvest",
+    "message": "You carefully cut apart what's left of the zombie technician.",
+    "entries": [
+      {
+        "drop": "bio_power_storage",
+        "type": "bionic",
+        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ],
+        "base_num": [ 0, 2 ],
+        "scale_num": [ 0.1, 0.6 ],
+        "max": 5
+      },
+      {
+        "drop": "bionics_tech",
+        "type": "bionic_group",
+        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ],
+        "base_num": [ 0, 2 ],
+        "scale_num": [ 0.1, 0.6 ],
+        "max": 5
+      }
+    ]
+  },
+  {
+    "id": "dissect_bionics_mil",
+    "type": "harvest",
+    "message": "You carefully cut apart what's left of the undead soldier.",
+    "entries": [
+      {
+        "drop": "bio_power_storage",
+        "type": "bionic",
+        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ],
+        "base_num": [ 0, 2 ],
+        "scale_num": [ 0.1, 0.6 ],
+        "max": 5
+      },
+      {
+        "drop": "bionics_mil",
+        "type": "bionic_group",
+        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ],
+        "base_num": [ 0, 2 ],
+        "scale_num": [ 0.1, 0.6 ],
+        "max": 5
+      }
+    ]
+  },
+  {
+    "id": "dissect_mon_zombie_bio_op",
+    "type": "harvest",
+    "message": "You carefully cut apart what's left of the undead soldier.",
+    "entries": [
+      {
+        "drop": "bio_power_storage",
+        "type": "bionic",
+        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ],
+        "base_num": [ 0, 2 ],
+        "scale_num": [ 0.1, 0.6 ],
+        "max": 5
+      },
+      {
+        "drop": "bionics_op",
+        "type": "bionic_group",
+        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ],
+        "base_num": [ 0, 2 ],
+        "scale_num": [ 0.1, 0.6 ],
+        "max": 5
+      }
+    ]
+  },
+  {
+    "id": "dissect_mon_zombie_bio_op2",
+    "type": "harvest",
+    "message": "You carefully cut apart what's left of the undead soldier.",
+    "entries": [
+      {
+        "drop": "bionics_op2_off",
+        "type": "bionic_group",
+        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ],
+        "base_num": [ 0, 2 ],
+        "scale_num": [ 0.1, 0.6 ],
+        "max": 5
+      },
+      {
+        "drop": "bionics_op2_def",
+        "type": "bionic_group",
+        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ],
+        "base_num": [ 0, 2 ],
+        "scale_num": [ 0.1, 0.6 ],
+        "max": 5
+      },
+      {
+        "drop": "bionics_op2_utl",
+        "type": "bionic_group",
+        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ],
+        "base_num": [ 0, 2 ],
+        "scale_num": [ 0.1, 0.6 ],
+        "max": 5
+      }
+    ]
+  },
+  {
     "id": "dissect_mon_zomborg",
     "type": "harvest",
     "message": "You search for any salvageable hardware in what's left of this flesh and metal monster.  Much of it is just scrap metal, but some of the electronics look surprisingly intact.",
