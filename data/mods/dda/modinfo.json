@@ -6,7 +6,7 @@
     "description": "Core content for Cataclysm-DDA",
     "category": "content",
     "core": true,
-    "path": "../../json"
+    "path": "../../json",
     "dependencies": [ "aftershock" ]
   }
 ]
