@@ -33,11 +33,13 @@ Let's take a moment and explore what the core activities in Cataclysm that the p
 
 If a feature or system doesn't encourage or play into one of the above gameplay loops, it needs to be changed. Regardless of how realistic it is.
 
-### Cataclysm is already a great game. 
+### Cataclysm is already a great game.
 
-Not to trample on those who enjoy C:DDA, but I think 0.G is the "best" version of C:DDA and newer development has sort of lost the plot. Sure, there's some cool new stuff here and there, but a lot of it feels like things are just being changed for the sake of changing things.
+Don't fix what isn't broken. This is purely a subjective stance, but an opinion of mine that heavily influenced the creation of this project is that **Dark Days Ahead v0.G is already a great game as-is.**
 
-This project's goal is to move slowly, cut scope, and focus on making existing stuff better rather than overhauling stuff or adding new systems. My goal is to start with the premise that C:DDA 0.G is already a great game as-is and it doesn't really need new features or systems-- it mostly just needs minor refinement to make it more fun and more focused on its unique setting+lore. Any massive overhauls or system changes are outside of the scope of Cataclysm 2040.
+It doesn't really need new features or systems; it mostly just needs minor refinement to make it more fun and more focused on its unique setting+lore. Any massive overhauls or system changes are outside of the scope of Cataclysm 2040.
+
+This project's goal is to move slowly, cut scope, and focus on making existing stuff better rather than overhauling stuff or adding new systems. 
 
 I am one person and I don't have hundreds of contributors like C:DDA does, so it's likely that any releases will be few and far between. Any new development in Cataclysm 2040 will be focused on one of the following three things:
 - Restoring content to make the experience of playing Cataclysm 2040 more closely aligned with the 2040 iteration of the C:DDA universe.
