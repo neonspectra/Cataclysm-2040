@@ -6827,11 +6827,6 @@ int vehicle::damage( map &here, int p, int dmg, damage_type type, bool aimed )
                 }
             }
         }
-
-        // if we found a closed door, target it instead of the door_motor
-        if( strongest_door_part != -1 ) {
-            target_part = strongest_door_part;
-        }
     }
 
     int damage_dealt;
