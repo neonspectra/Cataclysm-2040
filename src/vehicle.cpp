@@ -6791,30 +6791,28 @@ int vehicle::damage( map &here, int p, int dmg, damage_type type, bool aimed )
     if( dmg < 1 ) {
         return dmg;
     }
-
     p = get_non_fake_part( p );
-    std::vector<int> pl = parts_at_relative( parts[p].mount, true );
-    if( pl.empty() ) {
-        // We ran out of non removed parts at this location already.
-        return dmg;
+    const vehicle_part &vp_initial = part( p );
+    const std::vector<int> parts_here = parts_at_relative( vp_initial.mount, true );
+    if( parts_here.empty() ) {
+        return dmg; // We ran out of non removed parts at this location already.
     }
-
     if( !aimed ) {
-        bool found_obs = false;
-        for( const int &i : pl ) {
-            if( part_flag( i, "OBSTACLE" ) &&
-                ( !part_flag( i, "OPENABLE" ) || !parts[i].open ) ) {
-                found_obs = true;
+        bool found_obstacle = false;
+        for( const int p_here : parts_here ) {
+            const vehicle_part &vp_here = part( p_here );
+            const vpart_info &vpi_here = vp_here.info();
+            if( vpi_here.has_flag( "OBSTACLE" ) && ( !vpi_here.has_flag( "OPENABLE" ) || !vp_here.open ) ) {
+                found_obstacle = true;
                 break;
             }
         }
-
-        if( !found_obs ) { // not aimed at this tile and no obstacle here -- fly through
-            return dmg;
+        if( !found_obstacle ) {
+            return dmg; // not aimed at this tile and no obstacle here -- fly through
         }
     }
 
-    int target_part = part_info( p ).rotor_diameter() ? p : random_entry( pl );
+    int target_part = vp_initial.info().rotor_diameter() ? p : random_entry( parts_here );
 
     // Parts integrated inside a door or board are protected by boards and closed doors
     if( part_flag( target_part, "BOARD_INTERNAL" ) ) {
