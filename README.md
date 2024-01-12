@@ -41,8 +41,9 @@ It doesn't really need new features or systems; it mostly just needs minor refin
 
 This project's goal is to move slowly, cut scope, and focus on making existing stuff better rather than overhauling stuff or adding new systems. 
 
-I am one person and I don't have hundreds of contributors like C:DDA does, so it's likely that any releases will be few and far between. Any new development in Cataclysm 2040 will be focused on one of the following three things:
+I am one person and I don't have hundreds of contributors like C:DDA does, so it's likely that any releases will be few and far between. Any new development in Cataclysm 2040 will be focused on one of the following things:
 - Restoring content to make the experience of playing Cataclysm 2040 more closely aligned with the 2040 iteration of the C:DDA universe.
+- Fixing existing bugs.
 - Adding lore/fluff related content.
 - Tweaking existing gameplay with QoL changes and streamlining/removing stuff that doesn't align with the core gameplay loops identified above.
 
@@ -54,6 +55,40 @@ As of this writing, this fork is maintained by a single person. As such, Catacly
 - Linux (x86_64)
 
 No other platforms or architectures are officially supported, but you're free to use the compilation guides written for Cataclysm: DDA to build your own binaries. At this time, we're not in any major package managers.
+
+## Releases
+
+Precompiled binaries of Cataclysm are released [here on GitHub](https://github.com/neonspectra/Cataclysm-2040/releases).
+
+At the current time of writing, I don't have automated CI set up for Cataclysm 2040, so release builds are assembled manually. This limits the frequency new releases can be published, but we can make use of release families to ease this lack of capacity.
+
+Cataclysm 2040 pre-built releases are named using the following notation:
+
+    Codename BuildDate   <--- The convention we use
+    Alie     2024.1      <--- Example of an actual release version name
+
+This notation is designed to tell you the release family codename as well as the date that the build was assembled (which has an associated tag in this repo).
+
+If you build you compile your own version of Cataclysm 2040, the default version string in the Makefile is configured to name your build the following way:
+
+    Codename CommitHash                                   <--- The convention we use
+    Alie     47b1d66250c6f32bdc0348316f5fc24ce0a28d8e     <--- Example of an actual self-compiled build version
+
+This notation is designed to tell you that your version isn't a date-tagged release, as well as telling you the release family codename and the commit hash at which you built your version.
+
+### Release Model
+
+The Cataclysm 2040 release model works based on release families. The purpose of grouping releases into families with unqiue codenames is to indicate binary compatibility between stable versions. This means that **within a given stable release family, there are no C++ changes between individual versions (only runtime changes like json and tilesets)**. Our release model guarantees that you can upgrade from one version within a given release family to a different version in the same family by simply copying your `data` and `gfx` folders to the new version.
+
+All C++ changes will be batched together in the beta release branch so that they can compiled as a bundle into a new release all at once. This makes it easier for less technical users to have freedom to mod their game and move around between versions within the stable release family of their choosing.
+
+However, there are some important caveats to our release model:
+1. The fact that you can upgrade/downgrade between versions within a release family by replacing your runtime files does **NOT** guarantee savegame compatibility between versions within a release family. JSON edits can and do break saves-- probably even more frequently than C++ changes do.
+2. The beta branch does **NOT** have the same guarantees of inter-version binary compatibility until it is marked stable and a new beta branch is created.
+
+The currently supported stable branch is **Alie**. The beta branch is currently **Bellamy**. 
+
+Please understand that due to the scope and limited capacity, releases are likely to be few and far between. But given that there are no plans for significant overhauls or feature expansion in this project, that shouldn't be an issue for you anyway.
 
 ### Compiling
 
