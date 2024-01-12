@@ -305,6 +305,7 @@
     "name": { "str": "door lock set" },
     "description": "Some wires and gears for connecting door handles and an unlocking knob to a latching mechanism, and a sturdy lock to go on the outer surface.  It is meant to be installed in a vehicle door or hatch.",
     "symbol": "+",
+    "broken_symbol": "x",
     "color": "dark_gray",
     "material": [ "steel" ],
     "category": "veh_parts",
