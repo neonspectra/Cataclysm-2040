@@ -62,6 +62,8 @@ Precompiled binaries of Cataclysm are released [here on GitHub](https://github.c
 
 At the current time of writing, I don't have automated CI set up for Cataclysm 2040, so release builds are assembled manually. This limits the frequency new releases can be published, but we can make use of release families to ease this lack of capacity.
 
+### Release Notation
+
 Cataclysm 2040 pre-built releases are named using the following notation:
 
     Codename BuildDate   <--- The convention we use
