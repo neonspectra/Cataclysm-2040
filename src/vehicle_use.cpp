@@ -2217,9 +2217,16 @@ void vehicle::build_interact_menu( veh_menu &menu, const tripoint &p, bool with_
         } );
     }
 
-    const std::optional<vpart_reference> vp_lockable_door =
-        vp.avail_part_with_feature( "LOCKABLE_DOOR" );
-    const std::optional<vpart_reference> vp_door_lock = vp.avail_part_with_feature( "DOOR_LOCKING" );
+    std::unique_ptr<vpart_reference> vp_lockable_door;
+    auto temp_vp_lockable_door = vp.avail_part_with_feature( "LOCKABLE_DOOR" );
+    if (temp_vp_lockable_door) {
+        vp_lockable_door = std::make_unique<vpart_reference>(*temp_vp_lockable_door);
+    }
+    std::unique_ptr<vpart_reference> vp_door_lock;
+    auto temp_vp_door_lock = vp.avail_part_with_feature( "DOOR_LOCKING" );
+    if (temp_vp_door_lock) {
+        vp_door_lock = std::make_unique<vpart_reference>(*temp_vp_door_lock);
+    }
     if( vp_lockable_door && vp_door_lock && !vp_lockable_door->part().open ) {
         if( player_inside && !vp_lockable_door->part().locked ) {
             menu.add( string_format( _( "Lock %s" ), vp_lockable_door->part().name() ) )
