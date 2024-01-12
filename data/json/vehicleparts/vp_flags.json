@@ -36,6 +36,10 @@
     "info": "You can store items here."
   },
   {
+    "id": "BOARD_INTERNAL",
+    "type": "json_flag"
+  },
+  {
     "id": "CTRL_ELECTRONIC",
     "type": "json_flag",
     "info": "You can 'e'xamine the tile to access the electronic controls.  If there are vehicle controls installed in the same spot, you can also use the vehicle control key (default '^')."
@@ -224,6 +228,11 @@
     "requires_flag": "LOCKABLE_CARGO"
   },
   {
+    "id": "DOOR_LOCKING",
+    "type": "json_flag",
+    "requires_flag": "LOCKABLE_DOOR"
+  },
+  {
     "id": "DOOR_MOTOR",
     "type": "json_flag",
     "requires_flag": "OPENABLE"
@@ -398,6 +407,11 @@
   {
     "id": "LOCKABLE_CARGO",
     "type": "json_flag"
+  },
+  {
+    "id": "LOCKABLE_DOOR",
+    "type": "json_flag",
+    "info": "This can be locked if equipped with a locking mechanism, preventing access from outside the vehicle."
   },
   {
     "id": "LOW_FINAL_AIR_DRAG",
