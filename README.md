@@ -80,7 +80,9 @@ This notation is designed to tell you that your version isn't a date-tagged rele
 
 ### Release Model
 
-The Cataclysm 2040 release model works based on release families. The purpose of grouping releases into families with unqiue codenames is to indicate binary compatibility between stable versions. This means that **within a given stable release family, there are no C++ changes between individual versions (only runtime changes like json and tilesets)**. Our release model guarantees that you can upgrade from one version within a given release family to a different version in the same family by simply copying your `data` and `gfx` folders to the new version.
+The Cataclysm 2040 release model works based on release families. The purpose of grouping releases into families with unqiue codenames is to indicate binary compatibility between stable versions. 
+
+This means that **within a given stable release family, there are no C++ changes between individual versions (only runtime changes like json and tilesets)**. Our release model guarantees that you can upgrade from one version within a given release family to a different version in the same family by simply copying your `data` and `gfx` folders to the new version.
 
 All C++ changes will be batched together in the beta release branch so that they can compiled as a bundle into a new release all at once. This makes it easier for less technical users to have freedom to mod their game and move around between versions within the stable release family of their choosing.
 
