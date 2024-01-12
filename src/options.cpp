@@ -2606,13 +2606,14 @@ void options_manager::add_options_debug()
 
     add( "SKILL_RUST", "debug", to_translation( "Skill rust" ),
          to_translation( "Set the type of skill rust.  Vanilla: Skill rust can decrease levels.  - Capped: Skill rust cannot decrease levels.  - Off: None at all." ),
-         //~ plain, default, normal
+        //~ vanilla DDA; can decrease levels
     {   { "vanilla", to_translation( "Vanilla" ) },
         //~ capped at a value
         { "capped", to_translation( "Capped" ) },
+        //~ default
         { "off", to_translation( "Off" ) }
     },
-    "vanilla" );
+    "off" );
 
     add_empty_line();
 
