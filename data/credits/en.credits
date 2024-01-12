@@ -2,9 +2,21 @@
 # The following line is for reference
 ##############################################################################
 <color_white>Original author:</color>    <color_white>Project Manager:</color>
-<color_yellow>Whales</color> (<color_dark_gray>retired</color>)    <color_yellow>KevinGranade</color>
+<color_yellow>Whales</color> (<color_dark_gray>retired</color>)    <color_yellow>Neon</color>
 
-<color_white>Current Main Developers:</color>
+<color_white>Special thanks to:</color>
+<color_yellow>The entire CleverRaven team</color> - For maintaining the amazing game this fork is based off of.
+
+<color_white>For web details about the project please see:</color>
+<color_cyan>https://github.com/neonspectra/Cataclysm-2040</color>
+
+<color_light_cyan>Cataclysm</color> <color_pink>2040</color> is released under <color_white>CC-BY-SA 3.0</color>:
+<color_cyan>https://creativecommons.org/licenses/by-sa/3.0/</color>
+
+******************************************************************************
+
+<color_white>Main Developers (<color_cyan>0.G</color>):/color>
+<color_yellow>Kevin Granade</color> - C:DDA project maintainer.
 <color_yellow>I-am-Erk</color> - Ultica, lore writing, ideas guy.
 <color_yellow>KorGgenT</color> - Professional yak shaver.
 
