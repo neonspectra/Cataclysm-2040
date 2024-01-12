@@ -1,3 +1,36 @@
+# Alie 2024.1
+This is the initial release for Cataclysm 2040. This development was forked immediately after Cataclysm:DDA 0.G.
+
+Features:
+(#13) Lock Vehicle Doors (DDA61087)
+
+Content:
+(#11) Restore CBMs from Zombie Corpses
+
+Interface:
+0d6070e Made ChibiUltica the default tileset
+
+Mods:
+(#3) Fixed & un-deprecated No Fungi mod
+(#4) Add Whaley Hair and Tattoo
+(#5) Backport Sky Islands
+(#9) Add Useful Helicopters and make piloting/A&P mechanic free
+(#10) Set Default Mods
+
+Balance:
+(#2) Remove Proficiencies
+(#7) Disable Portal Storms
+(#8) Remove Welding Rods
+(#14) Turn Skill Rust off by default
+
+Build:
+(#1) Apple Silicon support
+(#15) Define Release Model
+
+---
+# Cataclysm: Dark Days Ahead below this line
+---
+
 # 0.G (Gaiman)
 
 ## Highlights
