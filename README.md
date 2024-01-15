@@ -1,4 +1,5 @@
 # Cataclysm 2040
+*[CHANGELOG](data/changelog.txt)*
 
 <p align="center">
     <img src="./data/screenshots/ultica-showcase-sep-2021.png" alt="Tileset: Ultica">
