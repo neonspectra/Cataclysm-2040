@@ -68,7 +68,7 @@ At the current time of writing, I don't have automated CI set up for Cataclysm 2
 Cataclysm 2040 pre-built releases are named using the following notation:
 
     Codename BuildDate   <--- The convention we use
-    Alie     2024.1      <--- Example of an actual release version name
+    Alie     2024.2      <--- Example of an actual release version name
 
 This notation is designed to tell you the release family codename as well as the date that the build was assembled (which has an associated tag in this repo).
 
