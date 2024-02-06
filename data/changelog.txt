@@ -1,4 +1,4 @@
-# Alie 2024.1
+# Alie 2024.2
 This is the initial release for Cataclysm 2040. This development was forked immediately after Cataclysm:DDA 0.G.
 
 Features:
@@ -6,6 +6,7 @@ Features:
 
 Content:
 (#11) Restore CBMs from Zombie Corpses
+(#17) Remove AFS Formless Ruins
 
 Interface:
 0d6070e Made ChibiUltica the default tileset
