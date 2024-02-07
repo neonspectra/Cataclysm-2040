@@ -1,12 +1,22 @@
-# Cataclysm 2040
-
 <p align="center">
-    <img src="./data/screenshots/ultica-showcase-sep-2021.png" alt="Tileset: Ultica">
+    <img src="./data/screenshots/titlebanner.png" alt="Cataclysm 2040">
 </p>
+
+---
 
 Five days after an event called the Cataclysm, the mundane routine of a civilized world has transformed into a desparate fight for survival of the human race. From the mist of government conspiracies and cover-ups, the few who saw the coming dangers prepared themselves for the end of the world...
 
 Cataclysm 2040 is a turn-based roguelike survival game set in a cyberpunk post-apocalyptic future. Forked from the critically acclaimed [Cataclysm: Dark Days Ahead](https://github.com/CleverRaven/Cataclysm-DDA/), Cataclysm 2040 is a revival project that seeks to restore the original futuristic setting and thematics of Cataclysm prior to the "present-day" retcon.
+
+*[CHANGELOG](data/changelog.txt)*
+
+---
+
+<p align="center">
+    <img src="./data/screenshots/showcase-2024.png" alt="Tileset: Chibi Ultica">
+</p>
+
+---
 
 ## Design Philosophy
 
@@ -49,10 +59,7 @@ I am one person and I don't have hundreds of contributors like C:DDA does, so it
 
 ## Core Supported Platforms
 
-As of this writing, this fork is maintained by a single person. As such, Cataclysm 2040 simply doesn't have the capacity to support the broad range of platforms available for Cataclysm: DDA. The only officially supported platforms with pre-compiled release binaries are:
-
-- macOS (arm64 - Apple Silicon)
-- Linux (x86_64)
+As of this writing, this fork is maintained by a single person. As such, Cataclysm 2040 simply doesn't have the capacity to support the broad range of platforms available for Cataclysm: DDA. Currently, the only officially supported platform with pre-compiled release binaries is macOS (arm64 - Apple Silicon).
 
 No other platforms or architectures are officially supported, but you're free to use the compilation guides written for Cataclysm: DDA to build your own binaries. At this time, we're not in any major package managers.
 
@@ -67,7 +74,7 @@ At the current time of writing, I don't have automated CI set up for Cataclysm 2
 Cataclysm 2040 pre-built releases are named using the following notation:
 
     Codename BuildDate   <--- The convention we use
-    Alie     2024.1      <--- Example of an actual release version name
+    Alie     2024.2      <--- Example of an actual release version name
 
 This notation is designed to tell you the release family codename as well as the date that the build was assembled (which has an associated tag in this repo).
 

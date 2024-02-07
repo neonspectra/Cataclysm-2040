@@ -4,6 +4,6 @@
     "id": "dev:default",
     "name": "default",
     "description": "contains all the mods recommended by the developers",
-    "dependencies": [ "dda", "aftershock", "no_npc_food", "personal_portal_storms", "no_fungal_growth", "no_fungi", "package_bionic_professions", "blazeindustries", "useful_helicopters", "Tamable_Wildlife", "MMA", "WHALEYHAIR1", "magiclysm" ]
+    "dependencies": [ "dda", "aftershock", "no_npc_food", "personal_portal_storms", "no_fungal_growth", "No_Fungi", "package_bionic_professions", "blazeindustries", "useful_helicopters", "Tamable_Wildlife", "WHALEYHAIR1", "magiclysm" ]
   }
 ]
