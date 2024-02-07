@@ -50,10 +50,7 @@ I am one person and I don't have hundreds of contributors like C:DDA does, so it
 
 ## Core Supported Platforms
 
-As of this writing, this fork is maintained by a single person. As such, Cataclysm 2040 simply doesn't have the capacity to support the broad range of platforms available for Cataclysm: DDA. The only officially supported platforms with pre-compiled release binaries are:
-
-- macOS (arm64 - Apple Silicon)
-- Linux (x86_64)
+As of this writing, this fork is maintained by a single person. As such, Cataclysm 2040 simply doesn't have the capacity to support the broad range of platforms available for Cataclysm: DDA. Currently, the only officially supported platform with pre-compiled release binaries is macOS (arm64 - Apple Silicon).
 
 No other platforms or architectures are officially supported, but you're free to use the compilation guides written for Cataclysm: DDA to build your own binaries. At this time, we're not in any major package managers.
 
