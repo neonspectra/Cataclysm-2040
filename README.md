@@ -10,6 +10,8 @@ Cataclysm 2040 is a turn-based roguelike survival game set in a cyberpunk post-a
 
 *[CHANGELOG](data/changelog.txt)*
 
+*[RELEASES](https://github.com/neonspectra/Cataclysm-2040/releases)*
+
 ---
 
 <p align="center">
